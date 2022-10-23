@@ -1,0 +1,313 @@
+.icon{
+    margin-top: -50px;
+    width: 200px;
+    float: left;
+    height: 70px;
+    
+  }
+  .icon img{
+    width: 156px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 5%;
+    padding-top: 2%;
+    
+  }
+
+  /*--------- apres top bar -----------*/
+
+  .main-banner{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.content{
+    
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+#cn{
+    width: 160px;
+    height: 40px;
+    background: white;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+#cn a{
+    text-decoration: none;
+    color: #f18622;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+.par{
+    color: white;
+}
+
+/*------- Design offre desktop---------*/
+
+.cercle{
+    background:#29275c; 
+    border-radius:50%; width:60px; 
+    height:60px; 
+    border:2px solid #29275c;
+}
+.h1offre{
+    font-weight: bold;
+}
+.prix{
+    margin-left: -70px;
+    color: white
+}
+.parmois{
+    margin-left: -150px;
+    color: white;
+}
+/*------- Design offre Mobile ---------*/
+
+@media all and  (max-width:  1024px)
+{
+    .cardoffre2{
+        margin-top: 130px;
+    }
+}
+
+/*-------------style2css-----------*/
+
+.wrapper{
+    max-width: 1090px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .wrapper .table{
+    background: #f18622;
+    width: calc(33% - 20px);
+    padding: 30px 30px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 15px;
+  }
+  .table .price-section{
+    display: flex;
+    justify-content: center;
+  }
+  .table .price-area{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  .price-area .inner-area{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid #29275c;
+    line-height: 117px;
+    text-align: center;
+   
+    position: relative;
+  }
+  .price-area .inner-area .text{
+    font-size: 25px;
+    font-weight: 400;
+    position: absolute;
+    top: -10px;
+    left: 17px;
+  }
+  .price-area .inner-area .price{
+    font-size: 45px;
+    font-weight: 500;
+    margin-left: 16px;
+  }
+  
+  .table .features li{
+    margin-bottom: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  .features li .list-name{
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .features li .icon{
+    font-size: 15px;
+  }
+  .features li .icon.check{
+    color: #2db94d;
+  }
+  .features li .icon.cross{
+    color: #cd3241;
+  }
+  .table .btn{
+    width: 100%;
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+  }
+  .table .btn button{
+    width: 80%;
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .table .btn button:hover{
+    border-radius: 5px;
+  }
+  .basic .features li::selection{
+    background: #ffd861;
+  }
+  .basic ::selection,
+  .basic .price-area,
+  .basic .inner-area{
+    background: #29255c;
+    width: 40px;
+    height: 40px;
+  }
+  .basic .btn button{
+    
+    background: white;
+    color: #29275c;
+  }
+  .basic .btn button:hover{
+    background: white;
+    color: #29275c;
+  }
+  .premium ::selection,
+  .premium .price-area,
+  .premium .inner-area{
+    background: #29255c;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .premium .btn button{
+    background: white;
+    color: #29275c;
+    
+  }
+  .premium .btn button:hover{
+    background: white;
+    color: #29275c;
+  }
+  .ultimate ::selection,
+  .ultimate .price-area,
+  .ultimate .inner-area{
+    background: #29255c;
+    width: 40px;
+    height: 40px;
+  }
+  .ultimate .btn button{
+    background: white;
+    color: #29275c;
+    
+  }
+  .ultimate .btn button:hover{
+    background: white;
+    color: #29275c;
+  }
+  
+  
+  @media (max-width: 1020px) {
+    .wrapper .table{
+      width: calc(50% - 20px);
+      margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 698px) {
+    .wrapper .table{
+      width: 100%;
+    }
+  }
+  ::selection{
+    color: #fff;
+  }
+  .table .ribbon{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    overflow: hidden;
+  }
+  .table .ribbon::before,
+  .table .ribbon::after{
+    position: absolute;
+    content: "";
+    z-index: -1;
+    display: block;
+    border: 7px solid #4606ac;
+    border-top-color: transparent;
+    border-left-color: transparent;
+  }
+  .table .ribbon::before{
+    top: 0px;
+    right: 15px;
+  }
+  .table .ribbon::after{
+    bottom: 15px;
+    left: 0px;
+  }
+  .table .ribbon span{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    transform: rotate(-45deg);
+    width: 200px;
+    background: #29275c;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.12);
+  }
+  
+  
+
+
