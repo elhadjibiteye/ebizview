@@ -1,0 +1,113 @@
+<div class="row">
+        <div class="col-lg-3 col-sm-6" onclick="myFunction()" style="width: 400px;">
+            <div>
+              <div class="showed-content" style="background-color: #f18622;">
+                <div>  
+                  <button class="cercle"></button>
+                  <h1 class="h1offre">NEW BUSINESS</h1><br>
+                <h3 class="prix">35 000 fcfa</h3><br>
+                <h7 class="parmois">par mois</h7>
+                  <div id="myDIV1">
+                    This is my DIV element 1.
+                    </div>
+                </div> 
+
+              </div>
+            </div>
+        </div>
+
+        <div class="col-lg-3 col-sm-6" class="cardoffre2" onclick="myFunction2()" style="width: 400px;">
+          <div>
+            <div class="showed-content" style="background-color: #f18622;">
+              <div>  
+                <button style="background:#29275c; border-radius:50%; width:60px; height:60px; border:2px solid #29275c;"></button>
+                <h1 class="h1offre">BUSINESS PILOT</h1><br>
+                <h3 class="prix">65 000 fcfa</h3><br>
+                <h7 class="parmois">par mois</h7>
+                <div id="myDIV2">
+                  This is my DIV element 2.
+                  </div>
+              </div> 
+            </div>
+          </div>
+      </div>
+
+      <div class="col-lg-3 col-sm-6" onclick="myFunction3()" style="width: 400px;">
+        <div>
+          <div class="showed-content" style="background-color: #f18622;">
+            <div>  
+              <button style="background:#29275c; border-radius:50%; width:60px; height:60px; border:2px solid #29275c;"></button>
+              <h1 class="h1offre" >BUSINESS PARTENER</h1><br>
+                <h3 class="prix">75 000 fcfa</h3><br>
+                <h7 class="parmois">par mois</h7>
+              <div id="myDIV3">
+                This is my DIV element 3.
+                </div>
+            </div> 
+          </div>
+        </div>
+    </div>
+
+      </div>
+
+
+
+Compte rendu DM 21/10/2022 
+
+Prise de note : Elhadji Mbaye BITEYE 
+
+Absence : 0 
+
+Début : 10H 
+
+Interventions 
+
+	Equipe Marketing et com: 
+
+Siny : 
+
+- Faire des posts (Atlaskills, CertyUp, Neolean) sur les réseaux sociaux. 
+
+- Pour les maquettes de post du lundi, c’est déjà fini. 
+
+- Travailler sur le Quiz du dimanche avec comme titre “Le saviez-vous ?” 
+
+	NB : le quiz sera en rapport avec Atlaskills, CertyUp et Neolean. 
+
+Fatima : 
+
+-  Envoyer les textes de EbizView 
+
+	Equipe IT: 
+
+Seydina : 
+
+- Proposition de modification du design de la landing page de CertyUp pour le choix d’une formation 
+
+	NB : une fois que le client a choisi une formation et validé le paiement, il reçoit automatiquement les infos d’accès à son compte par email.(D’après Ousmane) 
+
+Mandack : 
+
+- Attend les questions du quiz (Le saviez-vous ?) 
+
+Elhadji : 
+
+- Présenter son travail sur la landing page de EbizView 
+
+- Attend les textes de EbizView pour tout finir 
+
+To Do  :   
+
+ 1- Mandack doit retravailler les logos 
+
+ 2- Une Biographie de chacun de nous à partager sur les réseaux sociaux (une fois par semaine en Novembre) 
+
+ 3- Revoir les tableaux de planification pour les posts 
+
+ 
+
+ 
+
+ 
+
+ 

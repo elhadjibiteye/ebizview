@@ -169,10 +169,10 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #29275c;
+  background-color: white;
   font-size: 15px;
   font-weight: 400;
-  color: #fff;
+  color: #f18622;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 23px;
