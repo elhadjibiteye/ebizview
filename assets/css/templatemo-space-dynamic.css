@@ -347,12 +347,12 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #f18622!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #fe3f40!important;
+  color: #f18622!important;
   opacity: 1;
 }
 
@@ -653,7 +653,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fe3f40!important;
+    color: #f18622!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
