@@ -330,7 +330,7 @@ header
   font-weight: 500;
   font-size: 15px;
   color: #29275c;
-  font-family: Montserrat;
+  font-family: 'Montserrat';
   
   text-transform: capitalize;
   -webkit-transition: all 0.3s ease 0s;
@@ -370,7 +370,8 @@ header
 }
 
 .header-area .main-nav .nav li.submenu:after {
-  font-family: FontAwesome;
+  /*font-family: FontAwesome;*/
+  font-family: 'Montserrat';
   content: "\f107";
   font-size: 12px;
   color: #29275c;

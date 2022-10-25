@@ -36,13 +36,13 @@
 .content .par{
     padding-left: 20px;
     padding-bottom: 25px;
-    font-family: Arial;
+    font-family: 'Montserrat';
     letter-spacing: 1.2px;
     line-height: 30px;
 }
 
 .content h1{
-    font-family: 'Times New Roman';
+    font-family: 'Carmen Sans';
     font-size: 50px;
     padding-left: 20px;
     margin-top: 9%;
