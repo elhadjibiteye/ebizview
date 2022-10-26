@@ -150,7 +150,7 @@ body {
 
 .section-heading h2 {
   font-size: 30px;
-  text-transform: capitalize;
+  text-transform: inherit;
   color: #29275c;
   font-weight: 700;
   letter-spacing: 5.25px;
@@ -249,6 +249,9 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
+  /* y'avais pas margin-left start */
+  margin-left: -50px;
+  /* y'avais pas margin-left end */
   background: transparent;
 }
 
