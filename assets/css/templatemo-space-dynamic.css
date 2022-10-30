@@ -1633,10 +1633,10 @@ footer .about ul li a {
   font-size: 15px;
 }
 
-footer .about ul li a:hover {
- /* background-color: #f18622;*/
+/*footer .about ul li a:hover {
+  background-color: #f18622;
 }
-
+*/
 footer .footer-item ul li {
   display: block;
   margin-bottom: 12px;
