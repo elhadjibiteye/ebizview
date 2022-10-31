@@ -240,7 +240,7 @@ header
 
 .background-header {
   background-color: #fff!important;
-  height: 80px!important;
+  height: 100px!important;
   position: fixed!important;
   top: 0px;
   left: 0px;
@@ -263,7 +263,7 @@ header
 
 .header-area {
   background-color: #fafafa;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -580,7 +580,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 100px;
+  min-height: 80px;
 }
 
 .header-area .nav {
@@ -1201,7 +1201,7 @@ Blog
 }
 
 .our-blog .left-image .info .inner-content {
-  background-color: #F7F7F7;
+  background-color: #FAFAFA;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   border-radius: 20px;
   margin-right: 75px;
