@@ -580,7 +580,7 @@ header
 }
 
 .header-area.header-sticky {
-  min-height: 100px;
+  min-height: 80px;
 }
 
 .header-area .nav {
