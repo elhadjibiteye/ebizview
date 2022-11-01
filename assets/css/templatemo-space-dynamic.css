@@ -34,6 +34,7 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -239,7 +240,7 @@ header
 */
 
 .background-header {
-  background-color: #fff!important;
+  background-color: #f7f7f7!important;
   height: 100px!important;
   position: fixed!important;
   top: 0px;
@@ -1625,8 +1626,8 @@ footer .about ul li {
 footer .about ul li a {
   width: 32px;
   height: 32px;
-  background-color: white;
-  color: #fff !important;
+  background-color: #fff;
+  color: #29275c !important;
   border-radius: 50%;
   text-align: center;
   display: inline-block;
@@ -1648,7 +1649,7 @@ footer .footer-item ul li:last-child {
 }
 
 footer .footer-item ul li a {
-  font-size: 15px;
+  font-size: 14px;
   color: white;
   transition: all .3s;
 }
@@ -1658,13 +1659,13 @@ footer .footer-item ul li a:hover {
 }
 
 footer .footer-item p {
-  font-size: 15px;
+  font-size: 5px;
   color: white;
   margin-top: -5px;
 }
 
 footer .footer-item form {
-  background-color: #f18622;
+  background-color: #fff;
   height: 46px;
   border-radius: 23px;
   position: relative;
@@ -1681,14 +1682,14 @@ footer .footer-item form input {
 }
 
 footer .footer-item form input::placeholder {
-  color: #fff;
+  color: #29275c;
 }
 
 footer .footer-item form button {
   position: absolute;
   right: 20px;
   top: 10px;
-  color: #fff;
+  color: #f18622;
   background-color: transparent;
   border: none;
   outline: none;
