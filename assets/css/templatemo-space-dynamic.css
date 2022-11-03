@@ -1202,8 +1202,10 @@ Blog
 }
 
 .our-blog .left-image .info .inner-content {
-  background-color: #FAFAFA;
-  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+ /* background-color: #FAFAFA;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);*/
+  background-color: rgba(241, 134, 34, 0.7);
+  box-shadow: 0px 0px 15px rgba(241, 134, 34, 0.37);
   border-radius: 20px;
   margin-right: 75px;
   position: absolute;
@@ -1290,7 +1292,7 @@ contact
 
 .contact-us {
   padding: 160px 0px;
-  background-image: url(../images/2.jpg);
+  background-image: url(../images/contact5.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1299,11 +1301,11 @@ contact
 .contact-us .section-heading h2,
 .contact-us .section-heading h2 em,
 .contact-us .section-heading h2 span {
-  color: #fff;
+  color: #29275c;
 }
 
 .contact-us .section-heading p {
-  color: #fff;
+  color: #29275c;
   margin-top: 30px;
 }
 
@@ -1314,7 +1316,7 @@ contact
 .phone-info h4 {
   font-size: 20px;
   font-weight: 700;
-  color: #fff;
+  color: #f18622;
 }
 
 .phone-info h4 span i {
@@ -1332,7 +1334,7 @@ contact
 }
 
 .phone-info h4 span a {
-  color: #fff;
+  color: #29275c;
   font-size: 15px;
   font-weight: 400;
 }
@@ -1624,9 +1626,9 @@ footer .about ul li {
 }
 
 footer .about ul li a {
-  width: 32px;
-  height: 32px;
-  background-color: #fff;
+  width: 26px;
+  height: 26px;
+  
   color: #29275c !important;
   border-radius: 50%;
   text-align: center;
