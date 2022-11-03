@@ -242,7 +242,7 @@ header
 .background-header {
   background-color: #f7f7f7!important;
   height: 100px!important;
-  position: fixed!important;
+  position: absolute!important;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -264,7 +264,7 @@ header
 
 .header-area {
   background-color: #fafafa;
-  position: fixed;
+  position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
