@@ -600,6 +600,9 @@ header
   .header-area .main-nav:before {
     display: none;
   }
+  #reslogo{
+    margin-left: -50px;
+  }
 }
 
 @media (max-width: 992px) {
