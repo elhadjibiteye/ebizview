@@ -1583,6 +1583,8 @@ responsive
   .phone-info h4 span i {
     margin-left: 0px;
   }
+
+  
 }
 /* 
 ---------------------------------------------
@@ -1714,13 +1716,14 @@ footer .copyright p {
 footer .copyright p a {
   color: #f18622;
 }
-
+/* mega menu */
 ul li ul.dropdown li{
  display: block;
 }
 ul li ul.dropdown{
-  width: 50%;
-  background: #FAFAFA;
+  width: 100%;
+  height: auto;
+  background: #fff;
   border-radius: 10px;
   box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
   position: absolute;
