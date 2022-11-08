@@ -867,7 +867,8 @@ Banner Style
 }
 
 .main-banner .left-content {
-  margin-right: 45px;
+  /* margin-right: 45px;*/
+  margin-right: 20px;
 }
 
 .main-banner .left-content h6 {
@@ -878,10 +879,10 @@ Banner Style
 }
 
 .main-banner .left-content h2 {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   color: #29275c;
-  line-height: 72px;
+  line-height: 52px;
 }
 
 .main-banner .left-content h2 em {
@@ -1714,3 +1715,19 @@ footer .copyright p a {
   color: #f18622;
 }
 
+ul li ul.dropdown li{
+ display: block;
+}
+ul li ul.dropdown{
+  width: 50%;
+  background: #FAFAFA;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0,0,0,0.1);
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+ul li:hover ul.dropdown{
+  display: block;
+}
