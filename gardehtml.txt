@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="offerprice/css.css">
+    <script src="offerprice/jquery-3.3.1.slim.min.js"></script>
+    <script src="offerprice/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="offerprice/font-awesome.min.css">
+    <link rel="stylesheet" href="offerprice/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+    </style>
+    <title>EbizView</title>
+     <!--  debut Pour les offres -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <!--  fin Pour les offres -->
+     <!--  debut Pour les partenaires -->
+     <link rel="stylesheet" href="assets/partenaires/css/swiper-bundle.min.css">
+     <link rel="stylesheet" href="assets/partenaires/css/style.css">
+     <!--  fin Pour les partenaires -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logos.png">
+  </head>
+
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo" style="margin-left: -20px;">
+              <img src="logos/logobar.svg" alt="" srcset=""  height="95" id="reslogo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="nav_list nav_list_menu scroll-to-section"><a href="#top">Votre solution</a>
+              
+                <div class="dropdown">
+                  <div class="dropdown-inner">
+                    <div class="dropdown-item">
+                      <h4 class="item-heading" style="color: #29275c;">Createurs</h4>
+                      <div class="item-list">   
+                        <div class="item-list-info">  
+                         <a href="http://" style="color: #29275c; font-weight: 90;">BUSINESS STARTER</a> 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <h4 class="item-heading" style="color: #f18622;">Dirigeant</h4>
+                      <div class="item-list">                 
+                        <div class="item-list-info">
+                            <a href="http://" style="color: #f18622; font-weight: 90;">BUSINESS PILOT</a>
+                        </div>
+                      </div>              
+                    </div>
+                    <div class="dropdown-item">
+                      <h4 class="item-heading" style="color: #29275c;">Professionnels</h4>
+                      <div class="item-list">   
+                        <div class="item-list-info">  
+                         <a href="http://" style="color: #29275c; font-weight: 90;">BUSINESS PARTENER</a> 
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </li>
+              <li class="scroll-to-section"><a href="#portfolio">Nos Tarifs</a></li>
+              <li class="scroll-to-section"><a href="#portfolio">Ebiz’Wiki</a></li> 
+              <li class="scroll-to-section"><a href="#contact">Contacts</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button"><a href="#contact">Essai Gratuit</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <!--h6 style="color: #29275c;">Bienvenue sur eBizview</h6-->
+                <h2 style="color: white;">Prévisionnel, pilotage,<em style="color: #29275c;"> stratégie, scénari financiers</em> <span style="color: #f18622;"> &amp; synchronisation comptable</span></h2>
+                <p style="color: white;">Ebizview solution digitale simplifiée de gestion financière pour les créateurs d’entreprise, les entreprises, les dirigeants et les cabinets spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière</p> 
+                  <fieldset>
+                    <button type="submit" style="  width: 260px;
+                        height: 60px;
+                        background: #f18622;
+                        border: none;
+                        margin-bottom: 10px;
+                        margin-left: 20px;
+                        font-size: 18px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        transition: .4s ease;"><a href="http://" style="color: white;">Découvrir nos offres <i class="fa fa-arrow-right"></i></a></button>
+                  </fieldset>
+              
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- *************** Section 3 Start ****************** -->
+<div id="blog" class="our-blog section" style="margin-top: -50px;">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div class="left-image">
+          <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
+          <div class="info">
+            <div class="inner-content">
+              <a href="#"><h4 style="color: #29275c;">Prenez le contrôle de vos finances!</h4></a>
+              <p style="color: #29275c;">EbizView vous aide à assurer votre suivi financier :<br>
+                - Business plan<br>
+                - Projections financières<br>
+                - Etats financiers ...<br>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div class="right-list">
+          <ul>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/target.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Plus de stratégie, Moins d’Excel</h4></a>
+                <p>Dîtes adieu aux formules complexes et restez concentré sur votre business.</p>
+              </div>
+             
+            </li>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/temps.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Economisez un temps précieux</h4></a>
+                <p>Synchronisez vos données comptables et démarrez vos analyses immédiatement</p>
+              </div>
+            
+            </li>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/visibility.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Gagnez en autonomie</h4></a>
+                <p>Gérez vos scénarios prévisionnels simplement dans l’application et gagnez en visibilité et en sérénité
+                </p>
+              </div>
+             
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- *************** Section 3 End ****************** -->
+  
+  <div id="portfolio" class="our-portfolio section" style="margin-top: -50px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2>Choisissez votre solution</h2>
+          </div>
+        </div>
+      </div>
+
+      <section class="wrapper item wow bounceInUp animated">
+        <div class="container py-5" style="margin-top: -100px;">
+      
+          <div class="row text-center align-items-end">
+            <!-- *************** offre 1 ****************** -->
+            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622;">BUSINESS STARTER</h1>
+                <h2 class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span>35.000<span class="text-small font-weight-normal ml-2" style="color: #29275c;">/ mois</span></h2>
+      
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                
+                <ul id="myDIV1" class="list-unstyled my-5 text-small text-left" style="display: none;">
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Construction du business plan</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Projections financières automatiques</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Dossier de synthèse</li>
+                 
+                  <!--li class="mb-3 text-muted">
+                    <i class="fa fa-times mr-2"></i>
+                    <del>Synchronisation comptable</del>
+                  </li-->
+               
+                  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;; border-color: #f18622;">Souscrire</a>
+                
+                  <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                    <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                  </div>
+                </ul>
+               
+              </div>
+            </div>
+            <!-- *************** offre 1 END ****************** -->
+
+            <!-- *************** offre 2 ****************** -->
+            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction2()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c;">BUSINESS PILOT</h1>
+                <h2 class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span>65.000<span class="text-small font-weight-normal ml-2" style="color: #29275c;">/ mois</span></h2>
+      
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+      
+                <ul id="myDIV2" class="list-unstyled my-5 text-small text-left font-weight-normal" style="display: none;">
+                 
+                  <li class="mb-3" style="color: #f18622;">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Contenu de l'offre NEW BUSINESS</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Synchronisation comptable</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Fonctions de pilotage</li>
+                  <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Tests de robustesse financière</li>
+                  <li class="mb-3">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Export Excel des résultats</li>
+                  <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Retraitement des liasses fiscales</li>
+                  <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Simulations par scénarios</li>
+                  <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Comparaison aux pairs​</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
+                   
+                  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
+               
+                  <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                    <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                  </div>
+                </ul>
+                
+              </div>
+            </div>
+            <!-- *************** offre 2 END ****************** -->
+      
+      
+            <!-- *************** offre 3 ****************** -->
+            <div class="col-lg-4" onclick="myFunction3()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196;">BUSINESS PARTENER</h1>
+                <h2 class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span>75.000<span class="text-small font-weight-normal ml-2" style="color: #29275c;">/ mois</span></h2>
+      
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+      
+                <ul id="myDIV3" class="list-unstyled my-5 text-small text-left font-weight-normal" style="display: none;">
+                  
+                  <li class="mb-3" style="color: #29275c;">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Contenu de l'offre BUSINESS PILOT</li>
+                  <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> x10 dossiers d'entreprises</li>
+                  <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Collaboration avec vos clients</li>
+                  
+                  <li class="mb-3">
+                                    <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
+                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
+                
+                    <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                      <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                    </div>
+                  </ul>
+                
+              </div>
+            </div>
+            <!-- *************** offre 3 END ****************** -->
+      
+          </div>
+        </div>
+      </section>
+
+      </div>
+    </div>
+  
+
+<!-- *************** Partenaires Start ****************** -->
+<div id="contact" class="our-portfolio section" style="margin-top: -100px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 style="text-align: center;">NOS PARTENAIRES</h2>
+        </div>
+      </div>
+    </div>
+  <div class="slide-container swiper" style="margin-top: -100px;">
+    <div class="slide-content">
+        <div class="card-wrapper swiper-wrapper">
+            <div class="card swiper-slide">
+                <div class="image-content">
+                    
+  
+                    <div class="card-image">
+                        <img src="assets/partenaires/images/certyup.png" alt="" class="card-img">
+                    </div>
+                </div>
+  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+               
+  
+                    <div class="card-image">
+                        <img src="assets/partenaires/images/atlaskills.png" alt="" class="card-img">
+                    </div>
+                </div>
+  
+            </div>
+            <div class="card swiper-slide">
+                <div class="image-content">
+                   
+  
+                    <div class="card-image">
+                        <img src="assets/partenaires/images/neolean.png" alt="" class="card-img">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+  
+   
+    <div class="swiper-pagination"></div>
+  </div>
+    </div>
+  </div>
+  <!-- *************** Partenaires End ****************** -->
+<!-- *************** Contact Start ****************** -->
+<div id="contact" class="contact-us section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <div class="section-heading">
+          <h2 style="font-size: 3rem;">Contactez-nous </h2>
+          <p>Nous sommes disponible 7/7 pour répondre à vos questions</p>
+          <div class="phone-info">
+            <h4><span><i class="fa fa-phone"></i> <a href="#">xxxxxxxxx</a></span><span><i class="fa fa-envelope"></i> <a href="#">support@ebizview.co</a></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <form id="contact" action="" method="post">
+          <div class="row">
+            <div class="col-lg-6">
+              <fieldset>
+                <input type="name" name="name" id="name" placeholder="Nom" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-6">
+              <fieldset>
+                <input type="surname" name="surname" id="surname" placeholder="Prénom" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <button type="submit" id="form-submit" class="main-button ">Envoyer Message</button>
+              </fieldset>
+            </div>
+          </div>
+          <div class="contact-dec">
+            <img src="assets/images/contact-decoration.png" alt="">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- *************** Contact End ****************** -->
+<!-- *************** Footer Start ****************** -->
+<footer>
+  <div class="container" style="padding-top: 50px;">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="about footer-item">
+          <div class="logo">
+            <!--a href="#"><img src="Logo_Forekasts_blanc.svg" alt="ebizview"></a-->
+            <a href="index.html" class="logo">
+              <h4><span>eBizview</span></h4>
+            </a>
+          </div>
+          <h4 style="color: white;">Suivez-nous</h4>
+          <ul style="margin-top: -20px;">
+            <li><a href="www.instagram.com"><img src="icons/facebook.png" alt="icone facebook"></a></li>
+            <li><a href="#"><img src="icons/linkedin.png" alt="icone linkedin"></a></li>
+            <li><a href="#"><img src="icons/twitter.png" alt="icone twitter"></a></li>
+            <li><a href="#"><img src="icons/instagram.png" alt="icone instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services footer-item">
+          <h4 style="color: white;">Votre solution</h4>
+          <ul style="margin-top: -20px;">
+            <li><a href="#">Business starter</a></li>
+            <li><a href="#">Business pilot</a></li>
+            <li><a href="#">Business partner</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services footer-item">
+          
+          <ul>
+            <li><a href="#">Nos Tarifs</a></li>
+            <li><a href="#">Ebiz’Wiki</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-3">
+        <div class="subscribe-newsletters footer-item">
+          <h4 style="color: white;">Inscrivez-vous à notre newsletter</h4>
+          <span style="color: white;">Retrouvez toutes nos actualités,<br>informations et mises à jour produit, <br>en vous abonnant à la newsletter</span>
+          <form action="#" method="get" style="margin-bottom: 80px;">
+            <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
+            <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+          </form>
+        </div>
+      </div>
+      <!--div class="col-lg-12">
+        <div class="copyright">
+          <p>Copyright © 2022 eBizview, Tous droits réservés.
+        </div>
+      </div-->
+    </div>
+  </div>
+</footer>
+
+
+<!-- *************** Footer End ****************** -->
+  <!-- *************** Scripts ****************** -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/templatemo-custom.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function myFunction2() {
+      var y = document.getElementById("myDIV2");
+      if (y.style.display === "none") {
+        y.style.display = "block";
+      } else {
+        y.style.display = "none";
+      }
+    }
+    function myFunction3() {
+      var z = document.getElementById("myDIV3");
+      if (z.style.display === "none") {
+        z.style.display = "block";
+      } else {
+        z.style.display = "none";
+      }
+    }
+    </script>
+       <!-- Swiper JS -->
+       <script src="assets/partenaires/js/swiper-bundle.min.js"></script>
+
+       <!-- JavaScript -->
+       <script src="assets/partenaires/js/script.js"></script>
+        <!-- whatsapp web -->
+       <!--script src="https://apps.elfsight.com/p/platform.js" defer></script-->
+       <!--div class="elfsight-app-a7594339-6ec1-4082-bed7-6283af4ed437"></div-->
+          <!-- whatsapp mobile -->
+       <!--script src="https://apps.elfsight.com/p/platform.js" defer></script-->
+       <!--div class="elfsight-app-1fc3ff67-028e-485e-aa58-c57c73676bca"></div-->
+          <!-- Newsletter -->
+       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-6edc3989-f49d-4a90-8942-cf5559a4e068"></div>
+          <!-- Cookies -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-06e6bc96-2351-4ce1-ad70-282676c761ed"></div>
+  <!-- *************** Scripts End ****************** -->
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/635a828edaff0e1306d44b6a/1ggcorv46';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+</html>
+
+
+<div id="contact" class="our-portfolio section" style="margin-top: -80px; background-color: #F3F3F3;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 style="text-align: center; font-size: 2.5rem;"><span><b>Nos partenaires</b></span></h2>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+    <div class="owl-carousel owl-theme" style="margin-top: -50px; align-items: center;">
+      <div class="itemlogo"><img src="assets/images/logopartenaire/neolean.png" alt=""></div>
+      <div class="itemlogo"><img src="assets/images/logopartenaire/neolean.png" alt=""></div>
+      <div class="itemlogo"><img src="assets/images/logopartenaire/neolean.png" alt=""></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+jeudi apres midi---------------------------------
+
+<div id="blog" class="our-blog section" style="margin-top: -70px;">
+  <div class="container">
+    <div class="row">
+      <div style="text-align: center;" class="offrecheck">
+        <button onclick="show('Section1');" class="btn" style="background-color: #f18622; color: white;">Créateurs</button>
+        <button onclick="show('Section3');"  class="btn" style="background-color: #f18622; color: white;">Professionnels financiers</button>
+        <button onclick="show('Section2');" class="btn" style="background-color: #f18622; color: white;">Dirigeants</button>
+      </div>
+  
+      <div id="Section1"><div id="services" class="our-services section">
+        <div class="container" style="margin-top: -70px;">
+          <div class="row">  
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="section-heading" style="text-align: center;">
+                <h2><span>1,2,3 Go !</span></h2>
+                <br>
+              </div>
+              <div class="row" style="text-align: center;">
+                <div class="col-lg-12">
+                  <div class="first-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">- Générer vos plans d’affaire</h4>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="second-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">- Estimer vos provisions</h4>
+                  
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="third-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">- Evaluer vos business</h4>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="third-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">- Scénariser vos uses case</h4>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="left-image">
+                <img src="assets/images/3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div></div>
+      
+      <div id="Section2" style="display: none;">Duis erat sapien, sagittis consectetur odio at, bibendum porttitor ante. Pellentesque commodo viverra vehicula. Curabitur at ultricies velit. Curabitur eget tortor quam. Cras sagittis quis mauris eu tincidunt. Ut id tortor vulputate, cursus orci ut, bibendum tortor.<br><img src="https://via.placeholder.com/500x100"/></div>
+      
+      <div id="Section3" style="display: none;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+      </div>
+    </div>
+  </div>

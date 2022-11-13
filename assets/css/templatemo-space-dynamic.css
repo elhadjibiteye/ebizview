@@ -592,6 +592,10 @@ header
   color: #f18622;
 }
 
+.quisommesnous{
+  margin-top: 100px;
+}
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -1086,13 +1090,13 @@ Portfolio
 
 .our-portfolio {
   padding-top: 120px;
-  margin-top: 0px;
+  margin-top: -70px;
 }
 
 .our-portfolio .section-heading h2 {
   text-align: center;
   margin: 0px 90px 0px 90px;
-  margin-bottom: 120px;
+  margin-bottom: 20px;
   position: relative;
   z-index: 1;
 }
@@ -1208,8 +1212,8 @@ Blog
 .our-blog .left-image .info .inner-content {
  /* background-color: #FAFAFA;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);*/
-  background-color: rgba(241, 134, 34, 0.7);
-  box-shadow: 0px 0px 15px rgba(241, 134, 34, 0.37);
+  background-color: rgba(41, 39, 92, 0.9);
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
   border-radius: 20px;
   margin-right: 75px;
   position: absolute;
@@ -1421,7 +1425,121 @@ form#contact button:hover {
   background-color: #f18622;
 }
 
+/* 
+---------------------------------------------
+les offres qui changent
+--------------------------------------------- 
+*/
 
+.offre-us {
+  margin-top: 20px;
+  padding: 160px 0px;
+  background-image: url(../images/about-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.offre-us .section-heading h2,
+.offre-us .section-heading h2 em,
+.offre-us .section-heading h2 span {
+  color: #fff;
+}
+
+.offre-us .section-heading p {
+  color: #fff;
+  margin-top: 30px;
+}
+
+.phone-info {
+  margin-top: 40px;
+}
+
+.phone-info h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+
+
+
+form#offre .offre-dec {
+  position: absolute;
+  right: -166px;
+  bottom: 0;
+}
+
+form#offre .offre-dec img {
+  max-width: 178px;
+}
+
+form#offre {
+  margin-left: 30px;
+  position: relative;
+  background-color: #fff;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+form#offre input {
+  width: 100%;
+  height: 46px;
+  border-radius: 33px;
+  background-color: #d1f3ff;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 0px 20px;
+  margin-bottom: 20px;
+}
+
+form#offre input::placeholder {
+  color: #2a2a2a;
+}
+
+form#offre textarea {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  max-height: 180px;
+  min-height: 140px;
+  height: 140px;
+  border-radius: 20px;
+  background-color: #d1f3ff;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-weight: 300;
+  color: #2a2a2a;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+}
+
+form#offre textarea::placeholder {
+  color: #2a2a2a;
+}
+
+form#offre button {
+  display: inline-block;
+  background-color: #03a4ed;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border: none;
+  outline: none;
+  transition: all .3s;
+}
+
+form#offre button:hover {
+  background-color: #f18622;
+}
+/* ---------------------------------END OFFRE-----------------*/
 /* 
 ---------------------------------------------
 Footer Style
@@ -1536,7 +1654,7 @@ responsive
     margin-bottom: 45px;
   }
   .contact-us {
-    margin-top: 60px;
+   /* margin-top: 60px;*/
     padding: 120px 0px;
   }
   .contact-us .section-heading {
@@ -1552,6 +1670,17 @@ responsive
   footer p {
     margin: 15px 0px 30px 0px;
   }
+  .quisommesnous{
+    margin-top: 0px;
+  }
+  .offrecheck{
+    margin-top: -90px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  }
+ 
+  
 }
 
 @media (max-width: 767px) {
@@ -1583,6 +1712,7 @@ responsive
   .phone-info h4 span i {
     margin-left: 0px;
   }
+  
 
   
 }
@@ -1721,7 +1851,7 @@ ul li ul.dropdown li{
  display: block;
 }
 ul li ul.dropdown{
-  width: 100%;
+  width: auto;
   height: auto;
   background: #fff;
   border-radius: 10px;
@@ -1734,3 +1864,4 @@ ul li ul.dropdown{
 ul li:hover ul.dropdown{
   display: block;
 }
+

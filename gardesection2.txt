@@ -1,0 +1,82 @@
+<div id="blog" class="our-blog section" style="margin-top: -50px;">
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div class="left-image">
+          <a href="#"><img src="assets/images/big-blog-thumb.jpg" alt="Workspace Desktop"></a>
+          <div class="info">
+            <div class="inner-content">
+              <a href="#"><h4 style="color: #29275c;">Prenez le contrôle de vos finances!</h4></a>
+              <p style="color: #29275c;">EbizView vous aide à assurer votre suivi financier :<br>
+                - Business plan<br>
+                - Projections financières<br>
+                - Etats financiers ...<br>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+        <div class="right-list">
+          <ul>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/target.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Plus de stratégie, Moins d’Excel</h4></a>
+                <p>Dîtes adieu aux formules complexes et restez concentré sur votre business.</p>
+              </div>
+             
+            </li>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/temps.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Economisez un temps précieux</h4></a>
+                <p>Synchronisez vos données comptables et démarrez vos analyses immédiatement</p>
+              </div>
+            
+            </li>
+            <li>
+              <div class="left-content align-self-center">
+                <span><img src="assets/images/visibility.png" alt="" srcset="" style="width: 50px;"></span>
+                <a href="#"><h4 style="color: #29275c;">Gagnez en autonomie</h4></a>
+                <p>Gérez vos scénarios prévisionnels simplement dans l’application et gagnez en visibilité et en sérénité
+                </p>
+              </div>
+             
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+<div class="our-portfolio section">
+    <div class="container">
+      <div class="row" style="margin-bottom: 40px; margin-top: -50px;">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2 style="font-size: 2.5rem;"><span><b>Qui sommes-nous ?</b></span></h2>
+          </div>
+        </div>
+      </div>
+      <section class="wrapper item wow bounceInUp animated">
+        <div class="container py-5" style="margin-top: -80px;">
+          <div class="row text-center align-items-end">
+            <p style="margin-top: -90px; ">Ebizview <b>solution digitale</b> simplifiée de <b>gestion financière</b> pour les <b>créateurs d’entreprise</b>, les <b>entreprises</b>, les <b>dirigeants</b> et les <b>cabinets</b> spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière.</p>
+            </div>
+          </div>
+      </section>
+
+      
+    </div>
+  </div>
