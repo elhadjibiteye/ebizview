@@ -595,7 +595,301 @@ header
 .quisommesnous{
   margin-top: 100px;
 }
+/*----- css qui etait dans l'index start------*/
+@keyframes glowing {
+  0% {
+    background-color: #f18622;
+   
+  }
+  50% {
+    background-color: #f18622;
+    box-shadow: 0 0 20px #f18622;
+  }
+  100% {
+    background-color: #f18622;
+    box-shadow: 0 0 5px #f18622;
+  }
+}
+.button1 {
+  animation: glowing 1300ms infinite;
+}
+.middle{
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
 
+.btn{
+  background: none;
+  border: 2px solid #f18622;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+}
+.btnperiode{
+  background-color: #29275c;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  min-width: 100px;
+  margin: 10px;
+  cursor: pointer;
+  transition: color 0.4s linear;
+  position: relative;
+  border-radius: 25px;
+}
+.btn:hover{
+  color: #fff;
+}
+.btn::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #29275c;
+  z-index: -1;
+  transition: transform 0.5s;
+  transform-origin: 0 0;
+  transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+  transform: scaleX(0);
+}
+.btn1:hover::before{
+  transform: scaleX(1);
+}
+
+
+
+
+
+select {
+-webkit-appearance:none;
+-moz-appearance:none;
+-ms-appearance:none;
+appearance:none;
+outline:0;
+box-shadow:none;
+border:0!important;
+background: #5c6664;
+background-image: none;
+flex: 1;
+padding: 0 .5em;
+color:#fff;
+cursor:pointer;
+font-size: 1em;
+font-family: 'Open Sans', sans-serif;
+}
+select::-ms-expand {
+display: none;
+}
+.select {
+position: relative;
+display: flex;
+width: 15em;
+height: 3em;
+line-height: 3;
+background: #5c6664;
+overflow: hidden;
+border-radius: .25em;
+
+
+
+
+
+}
+.select::after {
+content: '\25BC';
+position: absolute;
+top: 0;
+right: 0;
+padding: 0 1em;
+background: #2b2e2e;
+cursor:pointer;
+pointer-events:none;
+transition:.25s all ease;
+}
+.select:hover::after {
+color: #f18622;
+}
+/*---------- end css qui etait dans l'index---------*/
+
+/* 
+----------------Slider partenaires start------------*/
+
+.our-elhadji .elhadji-left-dec img {
+  width: 52px;
+  height: 21px;
+  left: 45px;
+  top: 120px;
+  position: absolute;
+  z-index: 1;
+}
+
+.our-elhadji {
+  padding-top: 20px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.our-elhadji .section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.our-elhadji .section-heading h2 {
+  text-align: center;
+  margin: 0px 60px 0px 60px;
+  margin-bottom: -5px;
+  position: relative;
+  z-index: 1;
+}
+
+.our-elhadji {
+  margin: 0px 15px;
+}
+
+.our-elhadji .item .thumb {
+  position: relative;
+}
+
+.our-elhadji .item .thumb:hover .hover-effect {
+  bottom: 30px;
+}
+
+.our-elhadji .item .thumb:hover img {
+  opacity: 0.7;
+}
+
+.our-elhadji .item .hover-effect {
+  position: absolute;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .5s;
+  bottom: -240px;
+  right: 30px;
+  width: 239px;
+  height: 210px;
+}
+
+.our-elhadji .item .hover-effect .inner-content {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  text-align: right;
+}
+
+.our-elhadji .item .hover-effect .inner-content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.our-elhadji .item .hover-effect .inner-content span {
+  font-size: 15px;
+  color: #fff;
+}
+
+.our-elhadji .item .thumb img {
+  border-radius: 20px;
+  transition: all .3s;
+}
+
+.owl-elhadji .owl-nav {
+  position: absolute;
+  top: 42%;
+  width: 100%;
+}
+
+.owl-elhadji .owl-nav .owl-prev {
+  position: absolute;
+  left: 25px;
+}
+
+.owl-elhadji .owl-nav .owl-next {
+  position: absolute;
+  right: 30px;
+}
+
+.owl-elhadji .owl-nav .owl-prev span {
+    color: transparent;
+}
+
+.owl-elhadji .owl-nav .owl-prev span:hover::after{
+  opacity: 1;
+}
+
+.owl-elhadji .owl-nav .owl-prev span:after {
+  width: 46px;
+  height: 46px;
+  
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  content: '\f104';
+  font-size: 22px;
+  font-family: 'FontAwesome';
+  transition: all .2s;
+  opacity: 0.5;
+}
+
+.owl-elhadji .owl-nav .owl-next span {
+    color: transparent;
+}
+
+.owl-elhadji .owl-nav .owl-next span:hover::after{
+  opacity: 1;
+}
+
+.owl-elhadji .owl-nav .owl-next span:after {
+  width: 46px;
+  height: 46px;
+  
+  display: inline-block;
+  text-align: center;
+  line-height: 46px;
+  border-radius: 50%;
+  color: #fff;
+  content: '\f105';
+  font-size: 22px;
+  font-family: 'FontAwesome';
+  transition: all .5s;
+  opacity: 0.5;
+}
+
+.owl-elhadji .owl-dots {
+  text-align: center;
+  margin-top: -60px;
+}
+.owl-elhadji .owl-dots .owl-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #f18622;
+  border-radius: 50%;
+  opacity: 0.3;
+  margin: 0px 5px;
+}
+
+.owl-elhadji .owl-dots .active {
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+/*------------- End Slider partenaires------------*/
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -840,7 +1134,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../../1.jpeg);
+  background-image: url(../images/1.jpeg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

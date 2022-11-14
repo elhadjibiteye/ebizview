@@ -38,137 +38,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="logos.png">
   </head>
- 
-  <style>
-    @keyframes glowing {
-      0% {
-        background-color: #f18622;
-       
-      }
-      50% {
-        background-color: #f18622;
-        box-shadow: 0 0 20px #f18622;
-      }
-      100% {
-        background-color: #f18622;
-        box-shadow: 0 0 5px #f18622;
-      }
-    }
-    .button1 {
-      animation: glowing 1300ms infinite;
-    }
-  </style>
-  <style>
-    .middle{
-      position: absolute;
-      
-      left: 50%;
-      transform: translate(-50%,-50%);
-      text-align: center;
-    }
-    
-    .btn{
-      background: none;
-      border: 2px solid #f18622;
-      font-family: "montserrat", sans-serif;
-      text-transform: uppercase;
-      padding: 12px 20px;
-      min-width: 200px;
-      margin: 10px;
-      cursor: pointer;
-      transition: color 0.4s linear;
-      position: relative;
-    }
-    .btnperiode{
-      background-color: #29275c;
-      color: white;
-      font-family: "montserrat", sans-serif;
-      text-transform: uppercase;
-      padding: 12px 20px;
-      min-width: 100px;
-      margin: 10px;
-      cursor: pointer;
-      transition: color 0.4s linear;
-      position: relative;
-      border-radius: 25px;
-    }
-    .btn:hover{
-      color: #fff;
-    }
-    .btn::before{
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 100%;
-      background: #29275c;
-      z-index: -1;
-      transition: transform 0.5s;
-      transform-origin: 0 0;
-      transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
-    }
-    .btn1::before{
-      transform: scaleX(0);
-    }
-    .btn1:hover::before{
-      transform: scaleX(1);
-    }
-
-
-
-
-
-select {
-   -webkit-appearance:none;
-   -moz-appearance:none;
-   -ms-appearance:none;
-   appearance:none;
-   outline:0;
-   box-shadow:none;
-   border:0!important;
-   background: #5c6664;
-   background-image: none;
-   flex: 1;
-   padding: 0 .5em;
-   color:#fff;
-   cursor:pointer;
-   font-size: 1em;
-   font-family: 'Open Sans', sans-serif;
-}
-select::-ms-expand {
-   display: none;
-}
-.select {
-   position: relative;
-   display: flex;
-   width: 15em;
-   height: 3em;
-   line-height: 3;
-   background: #5c6664;
-   overflow: hidden;
-   border-radius: .25em;
- 
-   
-   
-   
-   
-}
-.select::after {
-   content: '\25BC';
-   position: absolute;
-   top: 0;
-   right: 0;
-   padding: 0 1em;
-   background: #2b2e2e;
-   cursor:pointer;
-   pointer-events:none;
-   transition:.25s all ease;
-}
-.select:hover::after {
-   color: #f18622;
-}
-  </style>
 
 <body>
 
@@ -327,16 +196,6 @@ select::-ms-expand {
                   </div>
                 </div>
                 
-                
-                <!--div class="select">
-                   <select name="format" id="mySelect" onchange="myFunc()">
-                      <option selected disabled>Choisir la periode</option>
-                      <option value="50.000">1 Mois sans engagement</option>
-                      <option value="105.000" value2="888888">3 Mois</option>
-                      <option value="180.000">6 Mois</option>
-                      <option value="350.000">1 an</option>
-                   </select>
-                </div-->
               </div>
              
             </div>
@@ -593,10 +452,8 @@ select::-ms-expand {
       background-color: #29275c;">
         <div class="col-lg-6 offset-lg-3">
           <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
-            <h2 style="font-size: 2.5rem;"><span><b>Nos Tarifs</b></span></h2>
-            <h5 style="color: #fff;text-align: center;font-size: 15px;">Allez 2x plus loin dans l’analyse financière
-              en 2x moins de temps pour un budget respecté
-              </h5>
+            <h2 style="font-size: 2.5rem;"><span><b>Comparez nos offres</b></span></h2>
+           
           </div>
         </div>
       </div>
@@ -849,9 +706,9 @@ select::-ms-expand {
         <div class="services footer-item">
           
           <ul>
-            <li><a href="#">Nos Tarifs</a></li>
+            <li><a href="#portfolio">Nos Tarifs</a></li>
             <li><a href="#">Ebiz’Wiki</a></li>
-            <li><a href="#">Contacts</a></li>
+            <li><a href="#contact">Contacts</a></li>
             <li><a href="#">Videos</a></li>
           </ul>
         </div>
@@ -916,12 +773,7 @@ select::-ms-expand {
 
        <!-- JavaScript -->
        <script src="assets/partenaires/js/script.js"></script>
-        <!-- whatsapp web -->
-       <!--script src="https://apps.elfsight.com/p/platform.js" defer></script-->
-       <!--div class="elfsight-app-a7594339-6ec1-4082-bed7-6283af4ed437"></div-->
-          <!-- whatsapp mobile -->
-       <!--script src="https://apps.elfsight.com/p/platform.js" defer></script-->
-       <!--div class="elfsight-app-1fc3ff67-028e-485e-aa58-c57c73676bca"></div-->
+     
           <!-- Newsletter -->
        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
       <div class="elfsight-app-6edc3989-f49d-4a90-8942-cf5559a4e068"></div>
