@@ -1,39 +1,5 @@
-/* 
 
-TemplateMo 562 Space Dynamic
-
-https://templatemo.com/tm-562-space-dynamic
-
-*/
-
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -178,6 +144,8 @@ body {
 }
 
 .section-heading h2 {
+  margin-top: 100px;
+  text-align: center;
   font-size: 30px;
   text-transform: none;
   color: #2a2a2a;
@@ -1017,6 +985,13 @@ color: #f18622;
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  .middle{
+    margin-top: 60px;
+  }
+  #sect1{
+    margin-top: -200px;
+  }
+ 
 }
 
 @media (min-width: 767px) {
