@@ -40,7 +40,16 @@
   </head>
 
 <body>
-
+  <style>
+    .rowmenu {
+      display: flex;
+    }
+    .cole {
+      flex: 1; 
+      padding: 1em;
+     
+    }
+  </style>
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -67,16 +76,18 @@
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top">Ebiz'Solution</a>
+              <li class="scroll-to-section"><a href="#blog">Ebiz'Solution</a>
               
-              <ul class="dropdown" style="color: #29275c;">
-                <li class="scroll-to-section"><a href="#"><em style="color: #29275c;">Créateurs</em></a></li>
-                <li class="scroll-to-section"><a href="#"><em style="color: #29275c;">Dirigeants</em> </a></li>
-                <li class="scroll-to-section"><a href="#"><em style="color: #29275c;">Professionnels financiers</em></a></li>
-                <h1></h1>
-               
-          
-              </ul>
+                <ul class="dropdown" style="color: #29275c;">
+                  
+                  <div class="rowmenu">
+                    <div class="cole" style="text-align: center;"><b>CREATEURS</b><a href="#Section1" onclick="show('Section1');" style="font-size: 13px; padding: 2px;">Business starter</a></div>
+                    <div class="cole" style="text-align: center;"><b>DIRIGEANTS</b><a href="#Section2" onclick="show('Section2');" style="font-size: 13px;">Business Pilot</a></div>
+                    <div class="cole" style="text-align: center;"><b>PROFESSIONNELS FINANCIERS</b><a href="#Section3" onclick="show('Section3');" style="font-size: 13px;">Business partener</a></div>
+                  </div>
+                
+             </ul>
+                
             </li>
               <li class="scroll-to-section"><a href="#portfolio">Nos Tarifs</a></li>
               <li class="scroll-to-section"><a href="#">Ebiz’Wiki</a></li> 
@@ -101,7 +112,7 @@
             <div class="col-lg-6 align-self-center">
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <!--h6 style="color: #29275c;">Bienvenue sur eBizview</h6-->
-                <h2 style="color: white;">Prévisionnel, pilotage,<em style="color: #29275c;"> stratégie, scénarii financiers</em> <span style="color: #f18622;"> &amp; synchronisation comptable</span></h2>
+                <h2 style="color: white; font-size: 2.7rem;">Prévisionnel, pilotage,<em style="color: #29275c;"> stratégie, scénarii financiers</em> <span style="color: #f18622;"> &amp; synchronisation comptable</span></h2>
                 <!--p style="color: white;">Ebizview solution digitale simplifiée de gestion financière pour les créateurs d’entreprise, les entreprises, les dirigeants et les cabinets spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière</p--> 
                   <fieldset>
                     <button type="submit" style="  width: 260px; margin-top: 100px;
@@ -152,9 +163,9 @@
         <button onclick="show('Section2');" class="btn btn1">Dirigeants</button>
         <button onclick="show('Section3');" class="btn btn1">Professionnels financiers</button>
       </div>
-      <div id="Section1" style="margin-top: 30px;">
+      <div id="Section1">
         <div id="services" class="our-services section">
-        <div class="container" style="margin-top: -70px;">
+        <div class="container">
           <div class="row">  
             <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
               <div class="section-heading" id="sect1">
@@ -186,31 +197,26 @@
                   </div>
                 </div>
                 <div class="col-lg-12">
-                  <div class="third-bar progress-skill-bar">
-                    <div>
-                      <button id="mySelect1" class="btnperiode" value="50.000" onclick="myFunc1()">1 Mois</button>
-                      <button id="mySelect2" class="btnperiode" value="105.000" onclick="myFunc2()">3 Mois</button>
-                      <button id="mySelect3" class="btnperiode" value="180.000" onclick="myFunc3()">6 Mois</button>
-                      <button id="mySelect4" class="btnperiode" value="350.000" onclick="myFunc4()">1 an</button>
+                
+                    <div class="bi">
+                      <button id="mySelect1" class="btnperiode te" value="50.000" onclick="myFunc1()">1 Mois</button>
+                      <button id="mySelect2" class="btnperiode te" value="105.000" onclick="myFunc2()">3 Mois</button>
+                      <button id="mySelect3" class="btnperiode te" value="180.000" onclick="myFunc3()">6 Mois</button>
+                      <button id="mySelect4" class="btnperiode te" value="350.000" onclick="myFunc4()">1 an</button>
                     </div>
-                  </div>
+                 
                 </div>
                 
               </div>
              
             </div>
-            <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-              <div class="left-image">
-                <section class="wrapper item wow bounceInUp animated">
-                  <div class="container py-5" style="margin-top: -50px; width: 1500px;">
-                
-                    <div class="row text-center align-items-end">
+       
                       <!-- *************** offre 1 ****************** -->
-                      <div class="col-lg-4 mb-5 mb-lg-0">
+                      <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft">
                         <div class="bg-white p-5 rounded-lg shadow">
-                          <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622;">BUSINESS STARTER</h1>
-                          <h2 class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demo">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois">/ mois</span></h2>
-                          <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement">sans engagement</span></h2>
+                          <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622; text-align: center;">BUSINESS STARTER</h1>
+                          <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demo">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois">/ mois</span></h2>
+                          <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement">sans engagement</span></h2>
                           <div class="custom-separator my-4 mx-auto bg-primary"></div>
                           
                           <ul class="list-unstyled my-5 text-small text-left">
@@ -226,23 +232,18 @@
                             <div style="text-align: center; margin-top: 25px; font-weight: bold;">
                               <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
                             </div>
-                          </ul>
-                         
+                          </ul>   
                         </div>
                       </div>
-                      </div>
-                      </div>
-                </section>
-              </div>
-            </div>
+                      <!-- *************** offre 1 End ****************** -->
           </div>
         </div>
       </div>
     </div>
       
-    <div id="Section2" style="margin-top: 30px; display: none;">
+    <div id="Section2" style="display: none;">
       <div id="services" class="our-services section">
-      <div class="container" style="margin-top: -70px;">
+      <div class="container">
         <div class="row">  
           <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
             <div class="section-heading" id="sect1">
@@ -286,63 +287,56 @@
             </div>
            
           </div>
-          <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-            <div class="left-image">
-              <section class="wrapper item wow bounceInUp animated">
-                <div class="container py-5" style="margin-top: -50px; width: 1500px;">
+              <!-- *************** offre 2 ****************** -->
               
-                  <div class="row text-center align-items-end">
-                    <!-- *************** offre 2 ****************** -->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                      <div class="bg-white p-5 rounded-lg shadow">
-                        <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c;">BUSINESS PILOT</h1>
-                        <h2 class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo2"><span id="demo2">100.000</span></span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois2">/ mois</span></h2>
-                        <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement2">sans engagement</span></h2>
-                        <div class="custom-separator my-4 mx-auto bg-primary"></div>
-              
-                        <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-                         
-                          <li class="mb-3" style="color: #f18622;">
-                            <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Contenu de l'offre NEW BUSINESS</li>
-                          <li class="mb-3">
-                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Synchronisation comptable</li>
-                          <li class="mb-3">
-                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Fonctions de pilotage</li>
-                          <li class="mb-3">
-                              <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Tests de robustesse financière</li>
-                          <li class="mb-3">
-                                <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Export Excel des résultats</li>
-                          <li class="mb-3">
-                                  <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Retraitement des liasses fiscales</li>
-                          <li class="mb-3">
-                                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Simulations par scénarios</li>
-                          <li class="mb-3">
-                                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Comparaison aux pairs​</li>
-                          <li class="mb-3">
-                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
-                           
-                          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
-                       
-                          <div style="text-align: center; margin-top: 25px; font-weight: bold;">
-                            <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
-                          </div>
-                        </ul>
-                        
-                      </div>
+              <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft">
+                <div class="bg-white p-5 rounded-lg shadow">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c; text-align: center;">BUSINESS PILOT</h1>
+                  <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo2"><span id="demo2">100.000</span></span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois2">/ mois</span></h2>
+                  <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement2">sans engagement</span></h2>
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+        
+                  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                   
+                    <li class="mb-3" style="color: #f18622;">
+                      <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Contenu de l'offre NEW BUSINESS</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Synchronisation comptable</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Fonctions de pilotage</li>
+                    <li class="mb-3">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Tests de robustesse financière</li>
+                    <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Export Excel des résultats</li>
+                    <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Retraitement des liasses fiscales</li>
+                    <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Simulations par scénarios</li>
+                    <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Comparaison aux pairs​</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
+                     
+                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
+                 
+                    <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                      <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
                     </div>
-                    </div>
-                    </div>
-              </section>
-            </div>
-          </div>
+                  </ul>
+                  
+                </div>
+              </div>
+              <!-- *************** offre 2 End ****************** -->
+
+
         </div>
       </div>
     </div>
   </div>
       
-  <div id="Section3" style="margin-top: 30px; display: none;">
+  <div id="Section3" style="display: none;">
     <div id="services" class="our-services section">
-    <div class="container" style="margin-top: -70px;">
+    <div class="container">
       <div class="row">  
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="section-heading" id="sect1">
@@ -353,7 +347,6 @@
             <div class="col-lg-12">
               <div class="first-bar progress-skill-bar">
                 <h4 style="font-size: 0.9rem;">&bull; Accompagner vos clients sur la stratégie financière</h4>
-               
               </div>
             </div>
             <div class="col-lg-12">
@@ -386,45 +379,35 @@
           </div>
          
         </div>
-        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="left-image">
-            <section class="wrapper item wow bounceInUp animated">
-              <div class="container py-5" style="margin-top: -50px; width: 1500px;">
+        <!-- *************** offre 3 ****************** -->
+        <div class="col-lg-4 wow fadeInLeft">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196; text-align: center;">BUSINESS PARTENER</h1>
+            <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo3">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois3">/ mois</span></h2>
+            <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement3">sans engagement</span></h2>
+            <div class="custom-separator my-4 mx-auto bg-primary"></div>
+  
+            <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+              
+              <li class="mb-3" style="color: #29275c;">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Contenu de l'offre BUSINESS PILOT</li>
+              <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> x10 dossiers d'entreprises</li>
+              <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Collaboration avec vos clients</li>
+              
+              <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
+                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
             
-                <div class="row text-center align-items-end">
-                  <!-- *************** offre 3 ****************** -->
-                  <div class="col-lg-4">
-                    <div class="bg-white p-5 rounded-lg shadow">
-                      <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196;">BUSINESS PARTENER</h1>
-                      <h2 class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo3">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois3">/ mois</span></h2>
-                      <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement3">sans engagement</span></h2>
-                      <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                  <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                </div>
+              </ul>
             
-                      <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
-                        
-                        <li class="mb-3" style="color: #29275c;">
-                                  <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Contenu de l'offre BUSINESS PILOT</li>
-                        <li class="mb-3">
-                                    <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> x10 dossiers d'entreprises</li>
-                        <li class="mb-3">
-                                      <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Collaboration avec vos clients</li>
-                        
-                        <li class="mb-3">
-                                          <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
-                          <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
-                      
-                          <div style="text-align: center; margin-top: 25px; font-weight: bold;">
-                            <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
-                          </div>
-                        </ul>
-                      
-                    </div>
-                  </div>
-                  </div>
-                  </div>
-            </section>
           </div>
         </div>
+        <!-- *************** offre 3 End ****************** -->
       </div>
     </div>
   </div>
@@ -625,7 +608,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
-        <div class="section-heading" style="text-align: left;">
+        <div class="section-heading" id="secmobile">
           <h2 style="font-size: 2.5rem;">Contactez-nous </h2>
           <p>Nous sommes disponible 7/7 pour répondre à vos questions</p>
           <div class="phone-info">
@@ -634,7 +617,7 @@
         </div>
       </div>
       <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-        <form id="contact" action="" method="post">
+        <form id="contact" action="https://formsubmit.co/embiteye01@gmail.com" method="POST">
           <div class="row">
             <div class="col-lg-6">
               <fieldset>
@@ -696,9 +679,9 @@
         <div class="services footer-item">
           <h4 style="color: white;">Votre solution</h4>
           <ul style="margin-top: -20px;">
-            <li><a href="#">Business starter</a></li>
-            <li><a href="#">Business pilot</a></li>
-            <li><a href="#">Business partner</a></li>
+            <li><a href="#Section1" onclick="show('Section1');" >Business starter</a></li>
+            <li><a href="#Section2" onclick="show('Section2');" >Business pilot</a></li>
+            <li><a href="#Section3" onclick="show('Section3');" >Business partner</a></li>
           </ul>
         </div>
       </div>

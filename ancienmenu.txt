@@ -1,0 +1,9 @@
+ <ul class="dropdown" style="color: #29275c;">
+                <li class="scroll-to-section"><a href="#Section1" onclick="show('Section1');"><em style="color: #29275c;">Créateurs</em></a></li>
+                <li class="scroll-to-section"><a href="#Section2" onclick="show('Section2');"><em style="color: #29275c;">Dirigeants</em> </a></li>
+                <li class="scroll-to-section"><a href="#Section3" onclick="show('Section3');"><em style="color: #29275c;">Professionnels financiers</em></a></li>
+                <h1></h1>      
+</ul>
+
+
+ <li class="scroll-to-section" style="text-align: center; padding-top: 20px;">CREATEURS<span style="padding-left: 70px;">DIRIGEANT</span><span style="padding-left: 70px;">PROFESSIONNELS FINANCIERS</span><br><span style="margin-left: -90px;">Business starter</span><span style="padding-left: 30px;">Business PILOT</span><span style="padding-left: 40px;">Business PARTENER</span></nli>

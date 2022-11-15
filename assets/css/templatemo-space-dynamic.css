@@ -989,8 +989,21 @@ color: #f18622;
     margin-top: 60px;
   }
   #sect1{
-    margin-top: -200px;
+    margin-top: -250px;
   }
+  #secmobile{
+    margin-top: -170px;
+  }
+  .bi {
+    display: flex;
+  }
+  .te {
+    flex: 1; 
+    padding: 0.5em;
+    margin-left: -70px;
+   
+  }
+  
  
 }
 
@@ -1269,7 +1282,7 @@ Services Style
 */
 
 .our-services {
-  margin-top: 0px;
+  margin-top: -50px;
   padding-top: 120px;
 }
 
@@ -1569,7 +1582,7 @@ contact
 
 .contact-us {
   padding: 160px 0px;
-  background-image: url(../images/contact5.jpg);
+  background-image: url(../images/imagecontact.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
