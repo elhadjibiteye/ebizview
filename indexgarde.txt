@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="offerprice/css.css">
+    <script src="offerprice/jquery-3.3.1.slim.min.js"></script>
+    <script src="offerprice/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="offerprice/font-awesome.min.css">
+    <link rel="stylesheet" href="offerprice/bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>EbizView</title>
+     <!--  debut Pour les offres -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <!--  fin Pour les offres -->
+     <!--  debut Pour les partenaires -->
+     <link rel="stylesheet" href="assets/partenaires/css/swiper-bundle.min.css">
+     <link rel="stylesheet" href="assets/partenaires/css/style.css">
+     <!--  fin Pour les partenaires -->
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logos.png">
+  </head>
+
+<body>
+  <style>
+    .rowmenu {
+      display: flex;
+    }
+    .cole {
+      flex: 1; 
+      padding: 1em;
+     
+    }
+  </style>
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo" style="margin-left: -20px;">
+              <img src="logos/logobar.svg" alt="" srcset=""  height="95" id="reslogo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#blog">Ebiz'Solution</a>
+              
+                <ul class="dropdown" style="color: #29275c;">
+                  
+                  <div class="rowmenu">
+                    <div class="cole" style="text-align: center;"><b>CREATEURS</b><a href="#Section1" onclick="show('Section1');" style="font-size: 13px; padding: 2px;">Business starter</a></div>
+                    <div class="cole" style="text-align: center;"><b>DIRIGEANTS</b><a href="#Section2" onclick="show('Section2');" style="font-size: 13px;">Business Pilot</a></div>
+                    <div class="cole" style="text-align: center;"><b>PROFESSIONNELS FINANCIERS</b><a href="#Section3" onclick="show('Section3');" style="font-size: 13px;">Business partener</a></div>
+                  </div>
+                
+             </ul>
+                
+            </li>
+              <li class="scroll-to-section"><a href="#portfolio">Nos Tarifs</a></li>
+              <li class="scroll-to-section"><a href="#">Ebiz’Wiki</a></li> 
+              <li class="scroll-to-section"><a href="#contact">Contacts</a></li> 
+              <li class="scroll-to-section"><div class="main-red-button button1 "><a href="#">Essai Gratuit</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <!--h6 style="color: #29275c;">Bienvenue sur eBizview</h6-->
+                <h2 style="color: white; font-size: 2.7rem;">Prévisionnel, pilotage,<em style="color: #29275c;"> stratégie, scénarii financiers</em> <span style="color: #f18622;"> &amp; synchronisation comptable</span></h2>
+                <!--p style="color: white;">Ebizview solution digitale simplifiée de gestion financière pour les créateurs d’entreprise, les entreprises, les dirigeants et les cabinets spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière</p--> 
+                  <fieldset>
+                    <button type="submit" style="  width: 260px; margin-top: 100px;
+                        height: 60px;
+                        background: #f18622;
+                        border: none;
+                        margin-bottom: 10px;
+                        margin-left: 20px;
+                        font-size: 18px;
+                        border-radius: 10px;
+                        cursor: pointer;
+                        transition: .4s ease;" class="scroll-to-section button1"><a href="#portfolio" style="color: white;">Découvrez nos offres <i class="fa fa-arrow-right"></i></a></button>
+                  </fieldset>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Header Area End ***** -->
+  <!--div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 align-self-center  wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="left-image">
+            <img src="1.jpeg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="section-heading">
+            <a href="#"><h2 style="color: #f18622; text-align: center;" class="quisommesnous"><b>Qui sommes-nous ?</b></h2></a>
+            <p style="margin-top: -5px; text-align: center;">Ebizview <b>solution digitale</b> simplifiée de <b>gestion financière</b> pour les <b>créateurs d’entreprise</b>, les <b>entreprises</b>, les <b>dirigeants</b> et les <b>cabinets</b> spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div-->
+
+  
+<!--*************** Section votre solution start *****************-->
+
+<div id="blog" class="our-blog section">
+  <div class="container">
+    <div class="row">
+      <div class="middle" class="offrecheck">
+        <button onclick="show('Section1');" class="btn btn1">Créateurs</button>
+        <button onclick="show('Section2');" class="btn btn1">Dirigeants</button>
+        <button onclick="show('Section3');" class="btn btn1">Professionnels</button>
+      </div>
+      <div id="Section1">
+        <div id="services" class="our-services section">
+        <div class="container">
+          <div class="row">  
+            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+              <div class="section-heading" id="sect1">
+                <h2><span>Créateurs 1,2,3 Go !</span></h2>
+                <br>
+              </div>
+              <div class="row descrip" style="padding-left: 100px;">
+                <div class="col-lg-12">
+                  <div class="first-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">&bull; Générer vos plans d’affaire</h4>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="second-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">&bull; Estimer vos provisions</h4>
+                  
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="third-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">&bull; Evaluer vos business</h4>
+                   
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="third-bar progress-skill-bar">
+                    <h4 style="font-size: 0.9rem;">&bull; Scénariser vos uses case</h4>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                
+                    <div class="bi">
+                      <button id="mySelect1" class="btnperiode" value="50.000" onclick="myFunc1()">1 Mois</button>
+                      <button id="mySelect2" class="btnperiode" value="105.000" onclick="myFunc2()">3 Mois</button>
+                      <button id="mySelect3" class="btnperiode" value="180.000" onclick="myFunc3()">6 Mois</button>
+                      <button id="mySelect4" class="btnperiode" value="350.000" onclick="myFunc4()">1 an</button>
+                    </div>
+                 
+                </div>
+                
+              </div>
+             
+            </div>
+       
+                      <!-- *************** offre 1 ****************** -->
+                      <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft" id="hh">
+                        <div class="bg-white p-5 rounded-lg shadow">
+                          <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622; text-align: center;">BUSINESS STARTER</h1>
+                          <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demo">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois">/ mois</span></h2>
+                          <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement">sans engagement</span></h2>
+                          <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                          
+                          <ul class="list-unstyled my-5 text-small text-left">
+                            <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Construction du business plan</li>
+                            <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Projections financières automatiques</li>
+                            <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Dossier de synthèse</li>
+                         
+                            <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;; border-color: #f18622;">Souscrire</a>
+                          
+                            <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                              <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                            </div>
+                          </ul>   
+                        </div>
+                      </div>
+                      <!-- *************** offre 1 End ****************** -->
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div id="Section2" style="display: none;">
+      <div id="services" class="our-services section">
+      <div class="container">
+        <div class="row">  
+          <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+            <div class="section-heading" id="sect1">
+              <h2><span>Dirigeants 1,2,3 Go !</span></h2>
+              <br>
+            </div>
+            <div class="row" style="padding-left: 100px;">
+              <div class="col-lg-12">
+                <div class="first-bar progress-skill-bar">
+                  <h4 style="font-size: 0.9rem;">&bull; Piloter votre stratégie financière</h4>
+                 
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="second-bar progress-skill-bar">
+                  <h4 style="font-size: 0.9rem;">&bull; Visualiser vos scénarii financiers</h4>
+                
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="third-bar progress-skill-bar">
+                  <h4 style="font-size: 0.9rem;">&bull; Optimiser vos prévisions </h4>
+                 
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="third-bar progress-skill-bar">
+                  <h4 style="font-size: 0.9rem;">&bull; Contrôler vos chiffres </h4>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="third-bar progress-skill-bar">
+                  <div class="bi">
+                    <button id="mySelect5" class="btnperiode" value="100.000" onclick="myFunc5()">1 Mois</button>
+                    <button id="mySelect6" class="btnperiode" value="195.000" onclick="myFunc6()">3 Mois</button>
+                    <button id="mySelect7" class="btnperiode" value="350.000" onclick="myFunc7()">6 Mois</button>
+                    <button id="mySelect8" class="btnperiode" value="660.000" onclick="myFunc8()">1 an</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+              <!-- *************** offre 2 ****************** -->
+              
+              <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft">
+                <div class="bg-white p-5 rounded-lg shadow">
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c; text-align: center;">BUSINESS PILOT</h1>
+                  <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo2"><span id="demo2">100.000</span></span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois2">/ mois</span></h2>
+                  <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement2">sans engagement</span></h2>
+                  <div class="custom-separator my-4 mx-auto bg-primary"></div>
+        
+                  <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+                   
+                    <li class="mb-3" style="color: #f18622;">
+                      <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Contenu de l'offre NEW BUSINESS</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Synchronisation comptable</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Fonctions de pilotage</li>
+                    <li class="mb-3">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Tests de robustesse financière</li>
+                    <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Export Excel des résultats</li>
+                    <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Retraitement des liasses fiscales</li>
+                    <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Simulations par scénarios</li>
+                    <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Comparaison aux pairs​</li>
+                    <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
+                     
+                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
+                 
+                    <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                      <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                    </div>
+                  </ul>
+                  
+                </div>
+              </div>
+              <!-- *************** offre 2 End ****************** -->
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+      
+  <div id="Section3" style="display: none;">
+    <div id="services" class="our-services section">
+    <div class="container">
+      <div class="row">  
+        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
+          <div class="section-heading" id="sect1">
+            <h2><span>Professionnels financiers 1,2,3 Go !</span></h2>
+            <br>
+          </div>
+          <div class="row" style="padding-left: 100px;">
+            <div class="col-lg-12">
+              <div class="first-bar progress-skill-bar">
+                <h4 style="font-size: 0.9rem;">&bull; Accompagner vos clients sur la stratégie financière</h4>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="second-bar progress-skill-bar">
+                <h4 style="font-size: 0.9rem;">&bull; Gagner du temps avec votre solution innovante</h4>
+              
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="third-bar progress-skill-bar">
+                <h4 style="font-size: 0.9rem;">&bull; Devenez proactif et compétitif</h4>
+               
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="third-bar progress-skill-bar">
+                <h4 style="font-size: 0.9rem;">&bull; Booster le chiffre d’affaires de votre cabinet</h4>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div class="third-bar progress-skill-bar">
+                <div class="bi">
+                  <button id="mySelect9" class="btnperiode" value="100.000" onclick="myFunc9()">1 Mois</button>
+                  <button id="mySelect10" class="btnperiode" value="225.000" onclick="myFunc10()">3 Mois</button>
+                  <button id="mySelect11" class="btnperiode" value="400.000" onclick="myFunc11()">6 Mois</button>
+                  <button id="mySelect12" class="btnperiode" value="700.000" onclick="myFunc12()">1 an</button>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <!-- *************** offre 3 ****************** -->
+        <div class="col-lg-4 wow fadeInLeft">
+          <div class="bg-white p-5 rounded-lg shadow">
+            <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196; text-align: center;">BUSINESS PARTENER</h1>
+            <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo3">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois3">/ mois</span></h2>
+            <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement3">sans engagement</span></h2>
+            <div class="custom-separator my-4 mx-auto bg-primary"></div>
+  
+            <ul class="list-unstyled my-5 text-small text-left font-weight-normal">
+              
+              <li class="mb-3" style="color: #29275c;">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Contenu de l'offre BUSINESS PILOT</li>
+              <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> x10 dossiers d'entreprises</li>
+              <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Collaboration avec vos clients</li>
+              
+              <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
+                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
+            
+                <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                  <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                </div>
+              </ul>
+            
+          </div>
+        </div>
+        <!-- *************** offre 3 End ****************** -->
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+<!--*************** Section votre solution end *****************-->
+
+<!-- *************** Section 3 End ****************** -->
+  
+  <div id="portfolio" class="our-portfolio section">
+    <div class="container">
+      <div class="row" style="width: 99%;
+      padding-bottom: 5px;
+      padding-top: 5px;
+      margin: auto;
+      margin-bottom: 20px;
+      padding-left: 1%;
+      border-bottom: 2px  orange dashed;
+      background-color: #29275c;">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+            <h2 style="font-size: 2rem;"><span><b>Comparez nos offres</b></span></h2>
+           
+          </div>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <button id="mySelect1" class="btnperiode" onclick="myFuncTarif1()">1 Mois</button>
+        <button id="mySelect2" class="btnperiode" onclick="myFuncTarif2()">3 Mois</button>
+        <button id="mySelect3" class="btnperiode" onclick="myFuncTarif3()">6 Mois</button>
+        <button id="mySelect4" class="btnperiode" onclick="myFuncTarif4()">1 an</button>
+      </div>
+
+
+      <section class="wrapper item wow bounceInUp animated">
+        <div class="container py-5">
+      
+          <div class="row text-center align-items-end">
+            <!-- *************** offre 1 ****************** -->
+            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622;">BUSINESS STARTER</h1>
+                <h2 class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demotarifstarter">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois1">/ mois</span></h2>
+                <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="engagement1">sans engagement</span></h2>
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+                
+                <ul id="myDIV1" class="list-unstyled my-5 text-small text-left" style="display: none;">
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Construction du business plan</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Projections financières automatiques</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Dossier de synthèse</li>
+               
+                  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;; border-color: #f18622;">Souscrire</a>
+                
+                  <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                    <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                  </div>
+                </ul>
+               
+              </div>
+            </div>
+            <!-- *************** offre 1 END ****************** -->
+
+            <!-- *************** offre 2 ****************** -->
+            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction2()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c;">BUSINESS PILOT</h1>
+                <h2 class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demotarifpilot">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois2">/ mois</span></h2>
+                <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="engagement2">sans engagement</span></h2>
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+      
+                <ul id="myDIV2" class="list-unstyled my-5 text-small text-left font-weight-normal" style="display: none;">
+                 
+                  <li class="mb-3" style="color: #f18622;">
+                    <i class="fa fa-check-circle mr-2" style="color: #f18622;"></i> Contenu de l'offre NEW BUSINESS</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Synchronisation comptable</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Fonctions de pilotage</li>
+                  <li class="mb-3">
+                      <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Tests de robustesse financière</li>
+                  <li class="mb-3">
+                        <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Export Excel des résultats</li>
+                  <li class="mb-3">
+                          <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Retraitement des liasses fiscales</li>
+                  <li class="mb-3">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Simulations par scénarios</li>
+                  <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Comparaison aux pairs​</li>
+                  <li class="mb-3">
+                    <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
+                   
+                  <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
+               
+                  <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                    <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                  </div>
+                </ul>
+                
+              </div>
+            </div>
+            <!-- *************** offre 2 END ****************** -->
+      
+      
+            <!-- *************** offre 3 ****************** -->
+            <div class="col-lg-4" onclick="myFunction3()">
+              <div class="bg-white p-5 rounded-lg shadow">
+                <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196;">BUSINESS PARTENER</h1>
+                <h2 class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demotarifpartener">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois3">/ mois</span></h2>
+                <h2><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="engagement3">sans engagement</span></h2>
+                <div class="custom-separator my-4 mx-auto bg-primary"></div>
+      
+                <ul id="myDIV3" class="list-unstyled my-5 text-small text-left font-weight-normal" style="display: none;">
+                  
+                  <li class="mb-3" style="color: #29275c;">
+                            <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Contenu de l'offre BUSINESS PILOT</li>
+                  <li class="mb-3">
+                              <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> x10 dossiers d'entreprises</li>
+                  <li class="mb-3">
+                                <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Collaboration avec vos clients</li>
+                  
+                  <li class="mb-3">
+                                    <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
+                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
+                
+                    <div style="text-align: center; margin-top: 25px; font-weight: bold;">
+                      <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                    </div>
+                  </ul>
+                
+              </div>
+            </div>
+            <!-- *************** offre 3 END ****************** -->
+      
+          </div>
+        </div>
+      </section>
+
+      </div>
+    </div>
+  
+
+<!-- *************** Partenaires Start ****************** -->
+
+<div id="contact" class="our-portfolio section" style="margin-top: -80px;background-color: #fafafa;">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 offset-lg-3">
+        <div class="section-heading  wow bounceIn" data-wow-duration="1s" data-wow-delay="0.2s">
+          <h2 style="text-align: center; font-size: 2rem;"><span><b>Nos partenaires</b></span></h2>
+        </div>
+      </div>
+    </div>
+    
+  <div id="elhadji" class="our-elhadji section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-elhadji" style="margin-top: -100px;">
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/logopartenaire/TOUSLESLOGOS-02.png" alt="">
+                
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/logopartenaire/TOUSLESLOGOS-03.png" alt="">
+                
+              </div>
+            </div>
+           
+            <div class="item">
+              <div class="thumb">
+                <img src="assets/images/logopartenaire/neolean.png" alt="">
+               
+              </div>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    </div>
+</div>
+  <!-- *************** Partenaires End ****************** -->
+<!-- *************** Contact Start ****************** -->
+<div id="contact" class="contact-us section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 align-self-center wow fadeInLeft" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <div class="section-heading" id="secmobile">
+          <h2 style="font-size: 2.5rem;">Contactez-nous </h2>
+          <p>Nous sommes disponible 7/7 pour répondre à vos questions</p>
+          <div class="phone-info">
+            <h4><span><i class="fa fa-phone"></i> <a href="#">xxxxxxxxx</a></span><span><i class="fa fa-envelope"></i> <a href="#">support@ebizview.co</a></span></h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
+        <form id="contact" action="contacts.php" method="POST">
+          <div class="row">
+            <div class="col-lg-6">
+              <fieldset>
+                <input type="name" name="surname" id="surname" placeholder="Nom" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-6">
+              <fieldset>
+                <input type="surname" name="firstname" id="firstname" placeholder="Prénom" autocomplete="on" required>
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <textarea name="message" type="text" class="form-control" id="message" placeholder="Message" required=""></textarea>  
+              </fieldset>
+            </div>
+            <div class="col-lg-12">
+              <fieldset>
+                <button type="submit" id="form-submit" class="main-button ">Envoyer Message</button>
+              </fieldset>
+            </div>
+          </div>
+          <div class="contact-dec">
+            <img src="assets/images/contact-decoration.png" alt="">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- *************** Contact End ****************** -->
+<!-- *************** Footer Start ****************** -->
+<footer>
+  <div class="container" style="padding-top: 50px;">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="about footer-item">
+          <div class="logo">
+            <!--a href="#"><img src="Logo_Forekasts_blanc.svg" alt="ebizview"></a-->
+            <a href="index.html" class="logo">
+              <h4><span>eBizview</span></h4>
+            </a>
+          </div>
+          <h4 style="color: white;">Suivez-nous</h4>
+          <ul style="margin-top: -20px;">
+            <li><a href="www.instagram.com"><img src="icons/facebook.png" alt="icone facebook"></a></li>
+            <li><a href="#"><img src="icons/linkedin.png" alt="icone linkedin"></a></li>
+            <li><a href="#"><img src="icons/twitter.png" alt="icone twitter"></a></li>
+            <li><a href="#"><img src="icons/instagram.png" alt="icone instagram"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services footer-item">
+          <h4 style="color: white;">Votre solution</h4>
+          <ul style="margin-top: -20px;">
+            <li><a href="#Section1" onclick="show('Section1');" >Business starter</a></li>
+            <li><a href="#Section2" onclick="show('Section2');" >Business pilot</a></li>
+            <li><a href="#Section3" onclick="show('Section3');" >Business partner</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="services footer-item">
+          
+          <ul>
+            <li><a href="#portfolio">Nos Tarifs</a></li>
+            <li><a href="#">Ebiz’Wiki</a></li>
+            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#">Videos</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="col-lg-3">
+        <div class="subscribe-newsletters footer-item">
+          <h4 style="color: white;">Inscrivez-vous à notre newsletter</h4>
+          <span style="color: white;">Retrouvez toutes nos actualités,<br>informations et mises à jour produit, <br>en vous abonnant à la newsletter</span>
+          <form action="#" method="get" style="margin-bottom: 80px;">
+            <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
+            <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>
+          </form>
+        </div>
+      </div>
+      <!--div class="col-lg-12">
+        <div class="copyright">
+          <p>Copyright © 2022 eBizview, Tous droits réservés.
+        </div>
+      </div-->
+    </div>
+  </div>
+</footer>
+
+
+<!-- *************** Footer End ****************** -->
+  <!-- *************** Scripts ****************** -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/templatemo-custom.js"></script>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myDIV1");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function myFunction2() {
+      var y = document.getElementById("myDIV2");
+      if (y.style.display === "none") {
+        y.style.display = "block";
+      } else {
+        y.style.display = "none";
+      }
+    }
+    function myFunction3() {
+      var z = document.getElementById("myDIV3");
+      if (z.style.display === "none") {
+        z.style.display = "block";
+      } else {
+        z.style.display = "none";
+      }
+    }
+    </script>
+       <!-- Swiper JS -->
+       <script src="assets/partenaires/js/swiper-bundle.min.js"></script>
+
+       <!-- JavaScript -->
+       <script src="assets/partenaires/js/script.js"></script>
+     
+          <!-- Newsletter -->
+       <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-6edc3989-f49d-4a90-8942-cf5559a4e068"></div>
+          <!-- Cookies -->
+      <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+      <div class="elfsight-app-06e6bc96-2351-4ce1-ad70-282676c761ed"></div>
+  <!-- *************** Scripts End ****************** -->
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/635a828edaff0e1306d44b6a/1ggcorv46';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    center:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:1500,
+    autoplayHoverPause:true,
+   
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <script>
+    function myFunc1() {
+      var x = document.getElementById("mySelect1").value;
+      document.getElementById("demo").innerHTML =  x;
+      document.getElementById("demoengagement").innerHTML ="sans engagement";
+      document.getElementById("demomois").innerHTML ="/ mois";
+    }
+    function myFunc2() {
+      var x = document.getElementById("mySelect2").value;
+      document.getElementById("demo").innerHTML =  x;
+      document.getElementById("demoengagement").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("demomois").innerHTML ="";
+    }
+    function myFunc3() {
+      var x = document.getElementById("mySelect3").value;
+      document.getElementById("demo").innerHTML =  x;
+      document.getElementById("demoengagement").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("demomois").innerHTML ="";
+    }
+    function myFunc4() {
+      var x = document.getElementById("mySelect4").value;
+      document.getElementById("demo").innerHTML =  x;
+      document.getElementById("demoengagement").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("demomois").innerHTML ="";
+    }
+
+    function myFunc5() {
+      var x = document.getElementById("mySelect5").value;
+      document.getElementById("demo2").innerHTML =  x;
+      document.getElementById("demoengagement2").innerHTML ="sans engagement";
+      document.getElementById("demomois2").innerHTML ="/ mois";
+    }
+    function myFunc6() {
+      var x = document.getElementById("mySelect6").value;
+      document.getElementById("demo2").innerHTML =  x;
+      document.getElementById("demoengagement2").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("demomois2").innerHTML ="";
+    }
+    function myFunc7() {
+      var x = document.getElementById("mySelect7").value;
+      document.getElementById("demo2").innerHTML =  x;
+      document.getElementById("demoengagement2").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("demomois2").innerHTML ="";
+    }
+    function myFunc8() {
+      var x = document.getElementById("mySelect8").value;
+      document.getElementById("demo2").innerHTML =  x;
+      document.getElementById("demoengagement2").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("demomois2").innerHTML ="";
+    }
+
+    function myFunc9() {
+      var x = document.getElementById("mySelect9").value;
+      document.getElementById("demo3").innerHTML =  x;
+      document.getElementById("demoengagement3").innerHTML ="sans engagement";
+      document.getElementById("demomois3").innerHTML ="/ mois";
+    }
+    function myFunc10() {
+      var x = document.getElementById("mySelect10").value;
+      document.getElementById("demo3").innerHTML =  x;
+      document.getElementById("demoengagement3").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("demomois3").innerHTML ="";
+    }
+    function myFunc11() {
+      var x = document.getElementById("mySelect11").value;
+      document.getElementById("demo3").innerHTML =  x;
+      document.getElementById("demoengagement3").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("demomois3").innerHTML ="";
+    }
+    function myFunc12() {
+      var x = document.getElementById("mySelect12").value;
+      document.getElementById("demo3").innerHTML =  x;
+      document.getElementById("demoengagement3").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("demomois3").innerHTML ="";
+    }
+
+    function myFuncTarif1() {
+      
+      document.getElementById("demotarifstarter").innerHTML =  "50.000";
+      document.getElementById("demotarifpilot").innerHTML =  "100.000";
+      document.getElementById("demotarifpartener").innerHTML =  "100.000";
+      document.getElementById("engagement1").innerHTML ="sans engagement";
+      document.getElementById("engagement2").innerHTML ="sans engagement";
+      document.getElementById("engagement3").innerHTML ="sans engagement";
+      document.getElementById("mois1").innerHTML ="/ mois";
+      document.getElementById("mois2").innerHTML ="/ mois";
+      document.getElementById("mois3").innerHTML ="/ mois";
+      
+      
+    }
+    function myFuncTarif2() {
+      
+      document.getElementById("demotarifstarter").innerHTML =  "105.000";
+      document.getElementById("demotarifpilot").innerHTML =  "195.000";
+      document.getElementById("demotarifpartener").innerHTML =  "225.000";
+      document.getElementById("engagement1").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("engagement2").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("engagement3").innerHTML ="facturé tous les 3 mois";
+      document.getElementById("mois1").innerHTML ="";
+      document.getElementById("mois2").innerHTML ="";
+      document.getElementById("mois3").innerHTML ="";
+      
+    }
+    function myFuncTarif3() {
+      
+      document.getElementById("demotarifstarter").innerHTML =  "180.000";
+      document.getElementById("demotarifpilot").innerHTML =  "350.000";
+      document.getElementById("demotarifpartener").innerHTML =  "400.000";
+      document.getElementById("engagement1").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("engagement2").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("engagement3").innerHTML ="facturé tous les 6 mois";
+      document.getElementById("mois1").innerHTML ="";
+      document.getElementById("mois2").innerHTML ="";
+      document.getElementById("mois3").innerHTML ="";
+      
+    }
+    function myFuncTarif4() {
+      
+      document.getElementById("demotarifstarter").innerHTML =  "350.000";
+      document.getElementById("demotarifpilot").innerHTML =  "660.000";
+      document.getElementById("demotarifpartener").innerHTML =  "700.000";
+      document.getElementById("engagement1").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("engagement2").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("engagement3").innerHTML ="facturé tous les 12 mois";
+      document.getElementById("mois1").innerHTML ="";
+      document.getElementById("mois2").innerHTML ="";
+      document.getElementById("mois3").innerHTML ="";
+      
+    }
+
+    </script>
+    
+
+</body>
+<script type="text/javascript">
+  var divs = ["Section1", "Section2", "Section3"];
+  var visibleId = null;
+  function show(id) {
+    if(visibleId !== id) {
+      visibleId = id;
+    } 
+    hide();
+  }
+  function hide() {
+    var div, i, id;
+    for(i = 0; i < divs.length; i++) {
+      id = divs[i];
+      div = document.getElementById(id);
+      if(visibleId === id) {
+        div.style.display = "block";
+        
+      } else {
+        div.style.display = "none";
+      }
+    }
+  }  
+  </script>
+</html>

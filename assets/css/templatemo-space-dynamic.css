@@ -1004,12 +1004,17 @@ color: #f18622;
     justify-content: center;
   }
   .middle .btn{
-    padding: 4px;
+    padding: 6px;
     margin: 4px;
     min-width: auto;
+    font-size: 12px;
   }
   #blog{
     margin-top: -130px;
+  }
+  .btnperiode{
+
+    border-radius: 5px;
   }
   .bi{
     display: flex;
@@ -1021,6 +1026,8 @@ color: #f18622;
     padding: 4px;
     margin: 4px;
     min-width: 90px;
+    font-size: 12px;
+    
     
   }
   #hh{
