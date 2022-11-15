@@ -869,6 +869,7 @@ color: #f18622;
   #reslogo{
     margin-left: -90px;
   }
+  
 }
 
 @media (max-width: 992px) {
@@ -880,6 +881,7 @@ color: #f18622;
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
   }
+  
 }
 
 @media (max-width: 767px) {
@@ -989,21 +991,44 @@ color: #f18622;
     margin-top: 60px;
   }
   #sect1{
-    margin-top: -250px;
+    margin-top: -330px;
   }
   #secmobile{
     margin-top: -170px;
   }
-  .bi {
-    display: flex;
-  }
-  .te {
-    flex: 1; 
-    padding: 0.5em;
-    margin-left: -70px;
-   
-  }
   
+  
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .middle .btn{
+    padding: 4px;
+    margin: 4px;
+    min-width: auto;
+  }
+  #blog{
+    margin-top: -130px;
+  }
+  .bi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .bi .btnperiode{
+    padding: 4px;
+    margin: 4px;
+    min-width: 90px;
+    
+  }
+  #hh{
+    margin-top: 30px;
+  }
+  #comparer{
+    font-size: 0.5rem;
+  }
  
 }
 
@@ -1461,7 +1486,7 @@ Blog
 
 .our-blog {
   position: relative;
-  margin-top: 80px;
+  
   padding-top: 120px;
 }
 
