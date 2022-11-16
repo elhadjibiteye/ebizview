@@ -461,7 +461,7 @@
       
           <div class="row text-center align-items-end">
             <!-- *************** offre 1 ****************** -->
-            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction()" style="cursor: pointer;">
+            <div class="col-lg-4 mb-5 mb-lg-0" onmouseover="mouseOver()" onmouseout="mouseOut()" style="cursor: pointer;">
               <div class="bg-white p-5 rounded-lg shadow">
                 <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622;">BUSINESS STARTER</h1>
                 <h2 class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demotarifstarter">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois1">/ mois</span></h2>
@@ -734,13 +734,13 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
   <script>
-    function myFunction() {
+    function mouseOver() {
       var x = document.getElementById("myDIV1");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+      document.getElementById("myDIV1").style.display = "block";
+    }
+    function mouseOut() {
+      var x = document.getElementById("myDIV1");
+      document.getElementById("myDIV1").style.display = "none";
     }
     function myFunction2() {
       var y = document.getElementById("myDIV2");
