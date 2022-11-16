@@ -857,6 +857,9 @@ color: #f18622;
   width: 10px;
   height: 10px;
 }
+.cardoffre{
+cursor: pointer;
+}
 /*------------- End Slider partenaires------------*/
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -867,7 +870,7 @@ color: #f18622;
     display: none;
   }
   #reslogo{
-    margin-left: -90px;
+    margin-left: -80px;
   }
   
 }
@@ -1154,7 +1157,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/1.jpeg);
+  background-image: url(../images/imagesection1.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
