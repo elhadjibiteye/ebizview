@@ -601,18 +601,24 @@ header
   transition: color 0.4s linear;
   position: relative;
 }
+.bi{
+  margin-top: -40px;
+}
 .btnperiode{
+  font-size: 8px;
+  font-weight: 600;
   background-color: #29275c;
   color: white;
   font-family: "montserrat", sans-serif;
   text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 100px;
-  margin: 10px;
+  padding: 10px 10px;
+  width: 60px;
+  margin: 2px;
   cursor: pointer;
-  transition: color 0.4s linear;
+  
   position: relative;
   border-radius: 25px;
+  
 }
 .btn:hover{
   color: #fff;
@@ -1157,7 +1163,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/imagesection1.png);
+  background-image: url(../images/section1image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
