@@ -21,15 +21,24 @@
 
   .custom-separator-secton1{
     margin-top: -10px;
+<<<<<<< HEAD
     width: 8rem;
+=======
+    width: 10rem;
+>>>>>>> 63367ac90e9a8edf186cf154eb26a0c7393aadfc
     height: 6px;
     border-radius: 1rem;
     background-color: #f18622;
   }
   .custom-separator-secton2{
+<<<<<<< HEAD
     width: 80%; 
     margin-top: -10px;
     margin-left: 10%;
+=======
+    margin-top: -10px;
+    width: auto;
+>>>>>>> 63367ac90e9a8edf186cf154eb26a0c7393aadfc
     height: 6px;
     size: 1;
     border-radius: 1rem;

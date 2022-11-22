@@ -601,6 +601,7 @@ header
   transition: color 0.4s linear;
   position: relative;
 }
+<<<<<<< HEAD
 .btn1:focus{
   background: #f18622;
   color: #fff;
@@ -629,6 +630,26 @@ header
 .btnperiode:focus{
   background: #f18622;
   color: #fff;
+=======
+.bi{
+  margin-top: -40px;
+}
+.btnperiode{
+  font-size: 8px;
+  font-weight: 600;
+  background-color: #29275c;
+  color: white;
+  font-family: "montserrat", sans-serif;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  width: 60px;
+  margin: 2px;
+  cursor: pointer;
+  
+  position: relative;
+  border-radius: 25px;
+  
+>>>>>>> 63367ac90e9a8edf186cf154eb26a0c7393aadfc
 }
 .btn:hover{
   color: #fff;
@@ -876,12 +897,15 @@ color: #f18622;
 .cardoffre{
 cursor: pointer;
 }
+<<<<<<< HEAD
 #tailleicone{
   font-size: 30px;
 }
 #menumobile{
   display: none;
 }
+=======
+>>>>>>> 63367ac90e9a8edf186cf154eb26a0c7393aadfc
 /*------------- End Slider partenaires------------*/
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
