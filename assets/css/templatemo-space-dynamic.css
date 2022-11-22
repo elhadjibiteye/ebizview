@@ -144,7 +144,7 @@ body {
 }
 
 .section-heading h2 {
-  margin-top: 100px;
+  
   text-align: center;
   font-size: 30px;
   text-transform: none;
@@ -601,18 +601,34 @@ header
   transition: color 0.4s linear;
   position: relative;
 }
+.btn1:focus{
+  background: #f18622;
+  color: #fff;
+}
+.bi{
+  margin-top: -20px;
+  text-align: center;
+}
 .btnperiode{
-  background-color: #29275c;
-  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #fafafa;
+  color: #29275c;
   font-family: "montserrat", sans-serif;
   text-transform: uppercase;
-  padding: 12px 20px;
-  min-width: 100px;
-  margin: 10px;
+  padding: 8px 0px;
+  width: 60px;
+  margin: 0px;
+  border-color: #29275c;
   cursor: pointer;
-  transition: color 0.4s linear;
+  
   position: relative;
-  border-radius: 25px;
+  border-radius: 5px;
+  
+}
+.btnperiode:focus{
+  background: #f18622;
+  color: #fff;
 }
 .btn:hover{
   color: #fff;
@@ -857,6 +873,15 @@ color: #f18622;
   width: 10px;
   height: 10px;
 }
+.cardoffre{
+cursor: pointer;
+}
+#tailleicone{
+  font-size: 30px;
+}
+#menumobile{
+  display: none;
+}
 /*------------- End Slider partenaires------------*/
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
@@ -867,7 +892,7 @@ color: #f18622;
     display: none;
   }
   #reslogo{
-    margin-left: -90px;
+    margin-left: -80px;
   }
   
 }
@@ -880,6 +905,18 @@ color: #f18622;
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;
+  }
+  #reslogo{
+    padding-left: 100px;
+  }
+  #sect1{
+    margin-top: -250px;
+  }
+  #textdescrip{
+    margin-top: -50px;
+  }
+  #decor{
+    display: none;
   }
   
 }
@@ -987,17 +1024,23 @@ color: #f18622;
   .header-area .main-nav .nav li.submenu:hover ul, .header-area .main-nav .nav li.submenu:focus ul {
     height: 0px;
   }
+  #reslogo{
+    padding-left: 10px;
+  }
   .middle{
     margin-top: 60px;
   }
   #sect1{
-    margin-top: -330px;
+    margin-top: -230px;
   }
   #secmobile{
-    margin-top: -170px;
+    margin-top: -100px;
   }
   
-  
+  .btnperiode{
+    font-size: 10px;
+    width: 45px;
+  }
   .middle {
     display: flex;
     align-items: center;
@@ -1012,29 +1055,27 @@ color: #f18622;
   #blog{
     margin-top: -130px;
   }
-  .btnperiode{
-
-    border-radius: 5px;
-  }
-  .bi{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  .bi .btnperiode{
-    padding: 4px;
-    margin: 4px;
-    min-width: 90px;
-    font-size: 12px;
-    
-    
-  }
+ 
   #hh{
     margin-top: 30px;
   }
   #comparer{
     font-size: 0.5rem;
+  }
+  #decor{
+    display: none;
+  }
+  #taille{
+    font-size: 20px;
+  }
+  #tailleicone{
+    font-size: 15px;
+  }
+  #menuweb{
+    display: none;
+  }
+  #menumobile{
+    display: block;
   }
  
 }
@@ -1154,7 +1195,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/1.jpeg);
+  background-image: url(../images/section1image.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1512,6 +1553,7 @@ Blog
 
 .our-blog .left-image {
   position: relative;
+  
 }
 
 .our-blog .left-image img {
@@ -2165,7 +2207,7 @@ ul li ul.dropdown li{
  display: block;
 }
 ul li ul.dropdown{
-  width: auto;
+  width: 500px;
   height: auto;
   background: #fff;
   border-radius: 10px;

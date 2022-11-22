@@ -17,6 +17,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   
     <title>EbizView</title>
      <!--  debut Pour les offres -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -36,7 +37,7 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/templatemo-onix-digital.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="logos.png">
+    <link rel="icon" href="logos/logobar.svg">
   </head>
 
 <body>
@@ -50,42 +51,43 @@
      
     }
   </style>
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <nav class="main-nav">
             <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="logo" style="margin-left: -20px;">
+            <a href="/" class="logo">
               <img src="logos/logobar.svg" alt="" srcset=""  height="95" id="reslogo">
             </a>
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#blog">Ebiz'Solution</a>
+              <li class="scroll-to-section"><a href="#">Ebiz'Solution</a>
               
                 <ul class="dropdown" style="color: #29275c;">
-                  
+                  <!-- ***** Menu web start ***** -->
+                  <div id="menuweb">
                   <div class="rowmenu">
-                    <div class="cole" style="text-align: center;"><b>CREATEURS</b><a href="#Section1" onclick="show('Section1');" style="font-size: 13px; padding: 2px;">Business starter</a></div>
-                    <div class="cole" style="text-align: center;"><b>DIRIGEANTS</b><a href="#Section2" onclick="show('Section2');" style="font-size: 13px;">Business Pilot</a></div>
-                    <div class="cole" style="text-align: center;"><b>PROFESSIONNELS FINANCIERS</b><a href="#Section3" onclick="show('Section3');" style="font-size: 13px;">Business partener</a></div>
+                    <div class="cole" style="text-align: center;"><span style="font-weight: bold;">CREATEURS</span><span style="margin-left: 50px; font-weight: bold;">DIRIGEANTS</span><span style="margin-left: 50px; font-weight: bold;">PROFESSIONNELS</span></div>
+                    
                   </div>
+                  <hr class="custom-separator-secton2" style="height: 3px;">
+                  <div class="rowmenu">
+                    <div class="cole" style="margin-top: -20px;margin-bottom: 30px;"><span><a href="#Section1" onclick="show('Section1');" style="padding-left: 23px; font-size: 13px;">Business starter</a></span><span><a href="#Section2" onclick="show('Section2');" style="margin-left: 165px;margin-top: -40px; font-size: 13px;">Business pilot</a></span><span><a href="#Section3" onclick="show('Section3');"  style="margin-left: 310px;margin-top: -40px; font-size: 13px;">Business partener</a></span></div>
+                    
+                  </div>
+                </div>
+                <!-- ***** Menu web end ***** -->
+                <!-- ***** Menu Mobile start ***** -->
+                <li id="menumobile"><a href="#Section1" onclick="show('Section1');"><span style="color: #29275c;">Createurs</span></a></li>
+                <li id="menumobile"><a href="#Section2" onclick="show('Section2');"><span style="color: #29275c;">Dirigeants</span></a></li>
+                <li id="menumobile"><a href="#Section3" onclick="show('Section3');"><span style="color: #29275c;">Professionnels</span></a></li>
                 
+                <!-- ***** Menu mobile end ***** -->
+                  
              </ul>
                 
             </li>
@@ -111,11 +113,12 @@
           <div class="row">
             <div class="col-lg-6 align-self-center">
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-                <!--h6 style="color: #29275c;">Bienvenue sur eBizview</h6-->
-                <h2 style="color: white; font-size: 2.7rem;">Prévisionnel, pilotage,<em style="color: #29275c;"> stratégie, scénarii financiers</em> <span style="color: #f18622;"> &amp; synchronisation comptable</span></h2>
+                <h6 style="color: #29275c; text-transform: none;">Solution d'optimisation</h6>
+                <hr class="custom-separator-secton1" style="height: 3px;">
+                <h2 style="color: white; font-size: 2.5rem;"><em style="color: #29275c;">Prévisionnel, pilotage, stratégie, scénarii financiers &amp; synchronisation comptable</em></h2>
                 <!--p style="color: white;">Ebizview solution digitale simplifiée de gestion financière pour les créateurs d’entreprise, les entreprises, les dirigeants et les cabinets spécialisés. <br>Avec Ebizview  c’est l’IA au service de votre performance financière</p--> 
                   <fieldset>
-                    <button type="submit" style="  width: 260px; margin-top: 100px;
+                    <button type="submit" style="  width: 260px; margin-top: 50px;
                         height: 60px;
                         background: #f18622;
                         border: none;
@@ -167,48 +170,44 @@
         <div id="services" class="our-services section">
         <div class="container">
           <div class="row">  
-            <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-              <div class="section-heading" id="sect1">
-                <h2><span>Créateurs 1,2,3 Go !</span></h2>
-                <br>
-              </div>
-              <div class="row descrip" style="padding-left: 100px;">
-                <div class="col-lg-12">
-                  <div class="first-bar progress-skill-bar">
-                    <h4 style="font-size: 0.9rem;">&bull; Générer vos plans d’affaire</h4>
-                   
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="second-bar progress-skill-bar">
-                    <h4 style="font-size: 0.9rem;">&bull; Estimer vos provisions</h4>
+            <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+              
+              <div class="left-image">
+                <div class="section-heading" id="sect1">
+                  <h2 id="taille"><span>Createurs 1,2,3 Go !</span></h2>
                   
-                  </div>
                 </div>
-                <div class="col-lg-12">
-                  <div class="third-bar progress-skill-bar">
-                    <h4 style="font-size: 0.9rem;">&bull; Evaluer vos business</h4>
-                   
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="third-bar progress-skill-bar">
-                    <h4 style="font-size: 0.9rem;">&bull; Scénariser vos uses case</h4>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                
-                    <div class="bi">
-                      <button id="mySelect1" class="btnperiode" value="50.000" onclick="myFunc1()">1 Mois</button>
-                      <button id="mySelect2" class="btnperiode" value="105.000" onclick="myFunc2()">3 Mois</button>
-                      <button id="mySelect3" class="btnperiode" value="180.000" onclick="myFunc3()">6 Mois</button>
-                      <button id="mySelect4" class="btnperiode" value="350.000" onclick="myFunc4()">1 an</button>
+                <ul id="textdescrip">
+                  <li>
+                    <div class="left-content align-self-center">
+                      <h4 id="taille2"><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Générer vos plans d’affaire</span></h4>
+                      <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                     </div>
-                 
-                </div>
-                
+                    
+                  </li>
+                  <li>
+                    <div class="left-content align-self-center">
+                      <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Estimer vos provisions</span></h4>
+                      <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                    </div>
+                    
+                  </li>
+                  <li>
+                    <div class="left-content align-self-center">
+                      <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Evaluer vos business</span></h4>
+                      <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                    </div>
+         
+                  </li>
+                  <li>
+                    <div class="left-content align-self-center">
+                      <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Scénariser vos uses case</span></h4>
+                      <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                    </div>
+         
+                  </li>
+                </ul>
               </div>
-             
             </div>
        
                       <!-- *************** offre 1 ****************** -->
@@ -216,6 +215,7 @@
                         <div class="bg-white p-5 rounded-lg shadow">
                           <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622; text-align: center;">BUSINESS STARTER</h1>
                           <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demo">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois">/ mois</span></h2>
+                          <hr style="background-color: #f18622; font-weight: bold;">
                           <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement">sans engagement</span></h2>
                           <div class="custom-separator my-4 mx-auto bg-primary"></div>
                           
@@ -229,70 +229,78 @@
                          
                             <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;; border-color: #f18622;">Souscrire</a>
                           
-                            <div style="text-align: center; margin-top: 25px; font-weight: bold;">
-                              <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                            <div style="text-align: center; font-weight: bold;">
+                              <a href="http://" style="font-size: 10px;"> Essai gratuit 14jours<sup>*</sup></a>
                             </div>
-                          </ul>   
+                          </ul>
+                          <div>
+                            <div class="bi">
+                              <button id="mySelect1" class="btnperiode" value="50.000" onclick="myFunc1()">1 Mois</button>
+                              <button id="mySelect2" class="btnperiode" value="105.000" onclick="myFunc2()">3 Mois</button>
+                              <button id="mySelect3" class="btnperiode" value="180.000" onclick="myFunc3()">6 Mois</button>
+                              <button id="mySelect4" class="btnperiode" value="350.000" onclick="myFunc4()">1 an</button>
+                            </div> 
+                        </div>      
                         </div>
                       </div>
+                      <img src="assets/images/fondsection2.png" alt="" style="margin-top: -1000px;" id="decor">
                       <!-- *************** offre 1 End ****************** -->
           </div>
         </div>
       </div>
     </div>
       
-    <div id="Section2" style="display: none;">
+    <div id="Section2" style="display: none;" style="text-align: center;">
       <div id="services" class="our-services section">
       <div class="container">
         <div class="row">  
-          <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-            <div class="section-heading" id="sect1">
-              <h2><span>Dirigeants 1,2,3 Go !</span></h2>
-              <br>
-            </div>
-            <div class="row" style="padding-left: 100px;">
-              <div class="col-lg-12">
-                <div class="first-bar progress-skill-bar">
-                  <h4 style="font-size: 0.9rem;">&bull; Piloter votre stratégie financière</h4>
-                 
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="second-bar progress-skill-bar">
-                  <h4 style="font-size: 0.9rem;">&bull; Visualiser vos scénarii financiers</h4>
+          <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">
+              
+            <div class="left-image">
+              <div class="section-heading" id="sect1">
+                <h2 id="taille"><span>Dirigeants 1,2,3 Go !</span></h2>
                 
-                </div>
               </div>
-              <div class="col-lg-12">
-                <div class="third-bar progress-skill-bar">
-                  <h4 style="font-size: 0.9rem;">&bull; Optimiser vos prévisions </h4>
-                 
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="third-bar progress-skill-bar">
-                  <h4 style="font-size: 0.9rem;">&bull; Contrôler vos chiffres </h4>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="third-bar progress-skill-bar">
-                  <div class="bi">
-                    <button id="mySelect5" class="btnperiode" value="100.000" onclick="myFunc5()">1 Mois</button>
-                    <button id="mySelect6" class="btnperiode" value="195.000" onclick="myFunc6()">3 Mois</button>
-                    <button id="mySelect7" class="btnperiode" value="350.000" onclick="myFunc7()">6 Mois</button>
-                    <button id="mySelect8" class="btnperiode" value="660.000" onclick="myFunc8()">1 an</button>
+              <ul id="textdescrip">
+                <li>
+                  <div class="left-content align-self-center">
+                    <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Piloter votre stratégie financière</span></h4>
+                    <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                   </div>
-                </div>
-              </div>
+                  
+                </li>
+                <li>
+                  <div class="left-content align-self-center">
+                    <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Visualiser vos scénarii financiers</span></h4>
+                    <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  </div>
+                  
+                </li>
+                <li>
+                  <div class="left-content align-self-center">
+                    <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Optimiser vos prévisions</span></h4>
+                    <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  </div>
+       
+                </li>
+                <li>
+                  <div class="left-content align-self-center">
+                    <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Contrôler vos chiffres</span></h4>
+                    <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                  </div>
+       
+                </li>
+              </ul>
             </div>
-           
           </div>
+     
               <!-- *************** offre 2 ****************** -->
               
               <div class="col-lg-4 mb-5 mb-lg-0 wow fadeInLeft">
                 <div class="bg-white p-5 rounded-lg shadow">
-                  <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c; text-align: center;">BUSINESS PILOT</h1>
+                  <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622; text-align: center;">BUSINESS PILOT</h1>
                   <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo2"><span id="demo2">100.000</span></span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois2">/ mois</span></h2>
+                  <hr style="background-color: #f18622;">
                   <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement2">sans engagement</span></h2>
                   <div class="custom-separator my-4 mx-auto bg-primary"></div>
         
@@ -317,18 +325,24 @@
                     <li class="mb-3">
                       <i class="fa fa-check-circle mr-2" style="color: #29275c;"></i> Dossiers supplémentaires XX HT / mois</li>
                      
-                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #29275c; border-color: #29275c;">Souscrire</a>
+                    <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;">Souscrire</a>
                  
-                    <div style="text-align: center; margin-top: 25px; font-weight: bold;">
-                      <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                    <div style="text-align: center;font-weight: bold;">
+                      <a href="http://" style="font-size: 10px;"> Essai gratuit 14jours<sup>*</sup></a>
                     </div>
                   </ul>
-                  
+                  <div class="col-lg-12">
+                    <div class="bi">
+                      <button id="mySelect5" class="btnperiode" value="100.000" onclick="myFunc5()">1 Mois</button>
+                      <button id="mySelect6" class="btnperiode" value="195.000" onclick="myFunc6()">3 Mois</button>
+                      <button id="mySelect7" class="btnperiode" value="350.000" onclick="myFunc7()">6 Mois</button>
+                      <button id="mySelect8" class="btnperiode" value="660.000" onclick="myFunc8()">1 an</button>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <img src="assets/images/fondsection2.png" alt="" style="margin-top: -1000px;" id="decor">
               <!-- *************** offre 2 End ****************** -->
-
-
         </div>
       </div>
     </div>
@@ -338,52 +352,50 @@
     <div id="services" class="our-services section">
     <div class="container">
       <div class="row">  
-        <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
-          <div class="section-heading" id="sect1">
-            <h2><span>Professionnels financiers 1,2,3 Go !</span></h2>
-            <br>
-          </div>
-          <div class="row" style="padding-left: 100px;">
-            <div class="col-lg-12">
-              <div class="first-bar progress-skill-bar">
-                <h4 style="font-size: 0.9rem;">&bull; Accompagner vos clients sur la stratégie financière</h4>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="second-bar progress-skill-bar">
-                <h4 style="font-size: 0.9rem;">&bull; Gagner du temps avec votre solution innovante</h4>
+        <div class="col-lg-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.25s">   
+          <div class="left-image">
+            <div class="section-heading" id="sect1">
+              <h2 id="taille"><span>Professionnels financiers 1,2,3 Go !</span></h2>
               
-              </div>
             </div>
-            <div class="col-lg-12">
-              <div class="third-bar progress-skill-bar">
-                <h4 style="font-size: 0.9rem;">&bull; Devenez proactif et compétitif</h4>
-               
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="third-bar progress-skill-bar">
-                <h4 style="font-size: 0.9rem;">&bull; Booster le chiffre d’affaires de votre cabinet</h4>
-              </div>
-            </div>
-            <div class="col-lg-12">
-              <div class="third-bar progress-skill-bar">
-                <div class="bi">
-                  <button id="mySelect9" class="btnperiode" value="100.000" onclick="myFunc9()">1 Mois</button>
-                  <button id="mySelect10" class="btnperiode" value="225.000" onclick="myFunc10()">3 Mois</button>
-                  <button id="mySelect11" class="btnperiode" value="400.000" onclick="myFunc11()">6 Mois</button>
-                  <button id="mySelect12" class="btnperiode" value="700.000" onclick="myFunc12()">1 an</button>
+            <ul id="textdescrip">
+              <li>
+                <div class="left-content align-self-center">
+                  <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Accompagner vos clients sur la stratégie financière</span></h4>
+                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
                 </div>
-              </div>
-            </div>
+                
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Gagner du temps avec votre solution innovante</span></h4>
+                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                </div>
+                
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Devenez proactif et compétitif</span></h4>
+                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                </div>
+     
+              </li>
+              <li>
+                <div class="left-content align-self-center">
+                  <h4><span><i class='fa fa-leaf' style='color:#f18622' id="tailleicone"></i>Booster le chiffre d’affaires de votre cabinet</span></h4>
+                  <p>Lorem ipsum dolor sit amsecteturii and sed doer ket eismod...</p>
+                </div>
+     
+              </li>
+            </ul>
           </div>
-         
         </div>
         <!-- *************** offre 3 ****************** -->
         <div class="col-lg-4 wow fadeInLeft">
           <div class="bg-white p-5 rounded-lg shadow">
-            <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196; text-align: center;">BUSINESS PARTENER</h1>
+            <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622; text-align: center;">BUSINESS PARTENER</h1>
             <h2 style="text-align: center;" class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demo3">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demomois3">/ mois</span></h2>
+            <hr style="background-color: #f18622;">
             <h2 style="text-align: center;"><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="demoengagement3">sans engagement</span></h2>
             <div class="custom-separator my-4 mx-auto bg-primary"></div>
   
@@ -398,23 +410,31 @@
               
               <li class="mb-3">
                                 <i class="fa fa-check-circle mr-2" style="color: #559196;"></i> Données financières géo-sectorielles</li>
-                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #559196; border-color: #559196;">Souscrire</a>
+                <a href="#" class="btn btn-primary btn-block p-2 shadow rounded-pill" style="background-color: #f18622;">Souscrire</a>
             
-                <div style="text-align: center; margin-top: 25px; font-weight: bold;">
-                  <a href="http://"> Essai gratuit 14jours<sup>*</sup></a>
+                <div style="text-align: center; font-weight: bold;">
+                  <a href="http://" style="font-size: 10px;"> Essai gratuit 14jours<sup>*</sup></a>
                 </div>
               </ul>
-            
+              <div class="col-lg-12">
+                  <div class="bi">
+                    <button id="mySelect9" class="btnperiode" value="100.000" onclick="myFunc9()">1 Mois</button>
+                    <button id="mySelect10" class="btnperiode" value="225.000" onclick="myFunc10()">3 Mois</button>
+                    <button id="mySelect11" class="btnperiode" value="400.000" onclick="myFunc11()">6 Mois</button>
+                    <button id="mySelect12" class="btnperiode" value="700.000" onclick="myFunc12()">1 an</button>
+                  </div>
+              </div>
           </div>
         </div>
+        <img src="assets/images/fondsection2.png" alt="" style="margin-top: -1000px;" id="decor">
         <!-- *************** offre 3 End ****************** -->
       </div>
     </div>
   </div>
 </div>
-      </div>
-    </div>
-  </div>
+</div>
+</div>
+</div>
   
 
 
@@ -453,7 +473,7 @@
       
           <div class="row text-center align-items-end">
             <!-- *************** offre 1 ****************** -->
-            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction()">
+            <div class="col-lg-4 mb-5 mb-lg-0" onmouseover="mouseOver()" onmouseout="mouseOut()" style="cursor: pointer;">
               <div class="bg-white p-5 rounded-lg shadow">
                 <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #f18622;">BUSINESS STARTER</h1>
                 <h2 class="h1 font-weight-bold" style="color: #f18622;"><span class="text-small font-weight-normal ml-2">fcfa </span><span id="demotarifstarter">50.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois1">/ mois</span></h2>
@@ -480,7 +500,7 @@
             <!-- *************** offre 1 END ****************** -->
 
             <!-- *************** offre 2 ****************** -->
-            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction2()">
+            <div class="col-lg-4 mb-5 mb-lg-0" onclick="myFunction2()" style="cursor: pointer;">
               <div class="bg-white p-5 rounded-lg shadow">
                 <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #29275c;">BUSINESS PILOT</h1>
                 <h2 class="h1 font-weight-bold" style="color: #29275c;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demotarifpilot">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois2">/ mois</span></h2>
@@ -521,7 +541,7 @@
       
       
             <!-- *************** offre 3 ****************** -->
-            <div class="col-lg-4" onclick="myFunction3()">
+            <div class="col-lg-4" onclick="myFunction3()" style="cursor: pointer;">
               <div class="bg-white p-5 rounded-lg shadow">
                 <h1 class="h6 text-uppercase font-weight-bold mb-4" style="color: #559196;">BUSINESS PARTENER</h1>
                 <h2 class="h1 font-weight-bold" style="color: #559196;"><span class="text-small font-weight-normal ml-2">fcfa</span><span id="demotarifpartener">100.000</span><span class="text-small font-weight-normal ml-2" style="color: #29275c;" id="mois3">/ mois</span></h2>
@@ -617,21 +637,21 @@
         </div>
       </div>
       <div class="col-lg-6 wow fadeInRight" data-wow-duration="0.5s" data-wow-delay="0.25s">
-        <form id="contact" action="contacts.php" method="POST">
+        <form id="contact" action="contact.php" method="POST">
           <div class="row">
             <div class="col-lg-6">
               <fieldset>
-                <input type="name" name="surname" id="surname" placeholder="Nom" autocomplete="on" required>
+                <input type="text" name="surname" placeholder="Nom" autocomplete="on" required>
               </fieldset>
             </div>
             <div class="col-lg-6">
               <fieldset>
-                <input type="surname" name="firstname" id="firstname" placeholder="Prénom" autocomplete="on" required>
+                <input type="text" name="firstname" placeholder="Prénom" autocomplete="on" required>
               </fieldset>
             </div>
             <div class="col-lg-12">
               <fieldset>
-                <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
+                <input type="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="E-mail" required="">
               </fieldset>
             </div>
             <div class="col-lg-12">
@@ -660,11 +680,9 @@
     <div class="row">
       <div class="col-lg-3">
         <div class="about footer-item">
-          <div class="logo">
-            <!--a href="#"><img src="Logo_Forekasts_blanc.svg" alt="ebizview"></a-->
-            <a href="index.html" class="logo">
-              <h4><span>eBizview</span></h4>
-            </a>
+          <div class="logo" style="background-color: white; width: 40%;border-radius: 25px; margin-bottom: 10px;">
+            <a href="/"><img src="logos/logobar.svg" alt="ebizview" style="margin-bottom: 2px;"></a>
+            
           </div>
           <h4 style="color: white;">Suivez-nous</h4>
           <ul style="margin-top: -20px;">
@@ -726,13 +744,13 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
   <script>
-    function myFunction() {
+    function mouseOver() {
       var x = document.getElementById("myDIV1");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+      document.getElementById("myDIV1").style.display = "block";
+    }
+    function mouseOut() {
+      var x = document.getElementById("myDIV1");
+      document.getElementById("myDIV1").style.display = "none";
     }
     function myFunction2() {
       var y = document.getElementById("myDIV2");

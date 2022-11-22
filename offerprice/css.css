@@ -12,9 +12,27 @@
     width: 5rem;
     height: 6px;
     border-radius: 1rem;
+    
   }
-  
+
   .text-uppercase {
     letter-spacing: 0.2em;
+  }
+
+  .custom-separator-secton1{
+    margin-top: -10px;
+    width: 8rem;
+    height: 6px;
+    border-radius: 1rem;
+    background-color: #f18622;
+  }
+  .custom-separator-secton2{
+    width: 80%; 
+    margin-top: -10px;
+    margin-left: 10%;
+    height: 6px;
+    size: 1;
+    border-radius: 1rem;
+    background-color: #f18622;
   }
   
